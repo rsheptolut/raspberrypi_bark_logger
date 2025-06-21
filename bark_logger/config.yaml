@@ -1,0 +1,50 @@
+# Bark Logger Configuration
+
+# Audio capture settings
+audio:
+  sample_rate: 16000  # Hz - YAMNet typically uses 16kHz
+  chunk_size: 1024    # Samples per chunk
+  channels: 1         # Mono audio
+  device_index: null  # null = default microphone
+
+# Model settings
+model:
+  model_path: "model/yamnet_float16.tflite"
+  input_shape: [1, 1024]  # [batch, time] - adjust based on your model
+  sample_rate: 16000      # Model's expected sample rate
+  class_names: ["bark", "other"]  # Simplified class names
+  bark_class_index: 0     # Index of bark class in output
+
+# Detection settings
+detection:
+  threshold: 0.4          # Confidence threshold for bark detection (0.0-1.0)
+  interval: 0.1           # Seconds between detection attempts
+  min_duration: 0.5       # Minimum bark duration to record (seconds)
+  max_duration: 10.0      # Maximum recording duration (seconds)
+
+# Logging settings
+logs:
+  bark_events_csv: "logs/bark_events.csv"
+  debug_log: "logs/debug.log"
+  log_level: "INFO"       # DEBUG, INFO, WARNING, ERROR
+
+# Recording settings
+recordings:
+  path: "recordings/"
+  format: "wav"
+  quality: "high"         # high, medium, low
+  max_file_size_mb: 50    # Maximum file size before cleanup
+
+# System settings
+system:
+  cleanup_interval_hours: 24    # How often to cleanup old files
+  max_age_days: 30              # Keep recordings for this many days
+  max_disk_usage_gb: 10         # Maximum disk usage for recordings
+  enable_notifications: false   # Enable system notifications
+
+# Performance settings
+performance:
+  use_gpu: false         # Use GPU acceleration if available
+  num_threads: 4         # Number of threads for inference
+  batch_size: 1          # Batch size for processing
+  enable_profiling: false # Enable performance profiling 
