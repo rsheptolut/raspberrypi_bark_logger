@@ -33,10 +33,6 @@ MANIFEST
 *.manifest
 *.spec
 
-# Installer logs
-pip-log.txt
-pip-delete-this-directory.txt
-
 # Unit test / coverage reports
 htmlcov/
 .tox/
@@ -54,12 +50,6 @@ coverage.xml
 # Translations
 *.mo
 *.pot
-
-# Django stuff:
-*.log
-local_settings.py
-db.sqlite3
-db.sqlite3-journal
 
 # Flask stuff:
 instance/
@@ -135,17 +125,6 @@ dmypy.json
 *.aac
 *.ogg
 *.m4a
-
-# Model files (large ML models)
-*.tflite
-*.h5
-*.pkl
-*.joblib
-*.onnx
-
-# Recording directories
-recordings/
-logs/
 
 # OS generated files
 .DS_Store
