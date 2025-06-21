@@ -3,8 +3,10 @@ TFLite inference logic for bark detection
 Handles YAMNet model loading and inference
 """
 
-import numpy as np
-import tensorflow as tf
+import numpy as np  # System package: python3-numpy
+# Note: Using tflite-runtime instead of full TensorFlow for ARM compatibility
+# This provides tf.lite.Interpreter functionality without the full framework
+import tflite_runtime.interpreter as tf  # pip package: tflite-runtime
 from typing import Optional, Tuple
 import logging
 

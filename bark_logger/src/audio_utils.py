@@ -3,8 +3,8 @@ Audio capture and preprocessing utilities
 Handles microphone input, audio processing, and file saving
 """
 
-import pyaudio
-import numpy as np
+import pyaudio  # System package: python3-pyaudio
+import numpy as np  # System package: python3-numpy
 import wave
 from typing import Optional, Tuple
 import logging

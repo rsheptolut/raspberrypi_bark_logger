@@ -8,7 +8,7 @@ import time
 import logging
 from datetime import datetime
 from pathlib import Path
-import yaml
+import yaml  # pip package: pyyaml
 
 from audio_utils import AudioCapture
 from model_utils import BarkDetector
