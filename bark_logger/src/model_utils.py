@@ -31,7 +31,7 @@ class BarkDetector:
     def _load_model(self):
         """Load TFLite model"""
         try:
-            self.interpreter = tf.lite.Interpreter(model_path=self.model_path)
+            self.interpreter = tf.Interpreter(model_path=self.model_path)
             self.interpreter.allocate_tensors()
             
             # Get input and output details
