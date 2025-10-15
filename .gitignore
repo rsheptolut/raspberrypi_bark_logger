@@ -145,3 +145,5 @@ Thumbs.db
 # Temporary files
 *.tmp
 *.temp 
+bark_logger/logs/bark_events.csv
+bark_logger/logs/debug.log
