@@ -69,13 +69,16 @@ def main():
                 # Save a clip that contains the full buffer
                 # This ensures we catch barks straddling chunk boundaries
                 clip_to_save = buffer.copy()
-
+                
                 filename = f"{timestamp.strftime('%Y-%m-%d_%H-%M-%S')}.wav"
                 filepath = Path(config['recordings']['path']) / filename
                 audio_capture.save_clip(clip_to_save, filepath)
 
                 # Log event
                 event_logger.log_bark_event(timestamp, confidence, str(filepath))
+
+                # clear buffer to prevent another detection on the same sound
+                buffer = np.zeros(chunk_size, dtype=np.float32) 
 
                 logging.info(f"Bark detected! Confidence: {confidence:.3f}, Saved: {filename}")
 
