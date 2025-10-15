@@ -8,7 +8,7 @@ import numpy as np  # System package: python3-numpy
 import wave
 from typing import Optional, Tuple
 import logging
-
+from pathlib import Path
 
 class AudioCapture:
     """Handles audio capture from microphone"""
@@ -63,18 +63,30 @@ class AudioCapture:
         
         return np.concatenate(audio_data)
     
-    def save_clip(self, audio_data: np.ndarray, filepath: str):
-        """Save audio clip to WAV file"""
+    def save_clip(self, audio_data: np.ndarray, filepath):
+        """Save audio clip to WAV file, creating parent folder if needed"""
         try:
-            with wave.open(filepath, 'wb') as wav_file:
+            # Ensure filepath is a Path object
+            filepath = Path(filepath)
+
+            # Make sure parent directory exists
+            filepath.parent.mkdir(parents=True, exist_ok=True)
+
+            # Convert float32 [-1,1] to int16
+            audio_int16 = np.int16(audio_data * 32767)
+
+            # Write WAV file
+            with wave.open(str(filepath), 'wb') as wav_file:
                 wav_file.setnchannels(self.channels)
-                wav_file.setsampwidth(self.audio.get_sample_size(self.format))
+                wav_file.setsampwidth(2)  # 16-bit PCM
                 wav_file.setframerate(self.sample_rate)
-                wav_file.writeframes(audio_data.tobytes())
+                wav_file.writeframes(audio_int16.tobytes())
+
             logging.debug(f"Audio clip saved: {filepath}")
+
         except Exception as e:
             logging.error(f"Failed to save audio clip: {e}")
-    
+        
     def preprocess_audio(self, audio_data: np.ndarray) -> np.ndarray:
         """Preprocess audio for model input"""
         # Normalize audio

@@ -1,2 +1,1476 @@
 # Debug log file for bark logger
-# This file will be populated automatically when the application runs 
+# This file will be populated automatically when the application runs 2025-10-12 14:12:50,808 - INFO - Audio stream initialized: 16000Hz, 1 channels
+2025-10-12 14:12:51,022 - ERROR - Failed to load model: <built-in method CreateWrapperFromFile of PyCapsule object at 0x6d93e6e0> returned a result with an exception set
+2025-10-12 14:17:40,847 - INFO - Audio stream initialized: 16000Hz, 1 channels
+2025-10-12 14:17:40,865 - INFO - Model loaded successfully: model/yamnet_float16.tflite
+2025-10-12 14:17:40,867 - INFO - Input shape: [1]
+2025-10-12 14:17:40,870 - INFO - Output shape: [  1 521]
+2025-10-12 14:17:40,873 - INFO - Bark logger started
+2025-10-12 14:17:40,909 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:17:41,011 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:17:41,114 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:17:41,216 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:17:41,318 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:17:41,421 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:17:41,523 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:17:41,625 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:17:41,727 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:17:41,829 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:17:41,932 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:17:42,034 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:17:42,137 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:17:42,239 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:17:42,341 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:17:42,443 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:17:42,546 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:17:42,648 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:17:42,751 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:17:42,853 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:17:42,955 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:17:43,058 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:17:43,160 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:17:43,262 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:17:43,364 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:17:43,466 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:17:43,569 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:17:43,671 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:17:43,773 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:17:43,875 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:17:43,977 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:17:44,079 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:17:44,181 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:17:44,284 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:17:44,386 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:17:44,488 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:17:44,590 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:17:44,692 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:17:44,794 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:17:44,896 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:17:44,998 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:17:45,101 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:17:45,204 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:17:45,306 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:17:45,408 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:17:45,510 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:17:45,613 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:17:45,716 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:17:45,818 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:17:45,921 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:17:46,024 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:17:46,127 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:17:46,229 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:17:46,332 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:17:46,435 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:17:46,538 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:17:46,641 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:17:46,743 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:17:46,845 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:17:46,948 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:17:47,050 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:17:47,153 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:17:47,255 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:17:47,357 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:17:47,460 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:17:47,562 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:17:47,664 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:17:47,766 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:17:47,868 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:17:47,971 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:17:48,073 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:17:48,175 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:17:48,277 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:17:48,379 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:17:48,482 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:17:48,584 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:17:48,686 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:17:48,788 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:17:48,890 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:17:48,993 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:17:49,095 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:17:49,197 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:17:49,299 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:17:49,401 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:17:49,503 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:17:49,606 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:17:49,708 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:17:49,810 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:17:49,912 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:17:50,014 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:17:50,117 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:17:50,219 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:17:50,321 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:17:50,423 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:17:50,525 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:17:50,628 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:17:50,730 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:17:50,832 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:17:50,935 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:17:51,037 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:17:51,139 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:17:51,241 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:17:51,344 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:17:51,447 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:17:51,549 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:17:51,651 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:17:51,753 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:17:51,855 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:17:51,958 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:17:52,061 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:17:52,163 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:17:52,266 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:17:52,369 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:17:52,472 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:17:52,574 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:17:52,677 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:17:52,780 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:17:52,882 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:17:52,985 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:17:53,088 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:17:53,191 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:17:53,293 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:17:53,396 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:17:53,499 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:17:53,601 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:17:53,704 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:17:53,806 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:17:53,909 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:17:54,011 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:17:54,114 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:17:54,216 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:17:54,318 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:17:54,421 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:17:54,524 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:17:54,626 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:17:54,729 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:17:54,831 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:17:54,934 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:17:55,037 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:17:55,140 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:17:55,242 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:17:55,316 - INFO - Bark logger stopped by user
+2025-10-12 14:17:55,341 - INFO - Audio resources cleaned up
+2025-10-12 14:22:17,313 - INFO - Audio stream initialized: 16000Hz, 1 channels
+2025-10-12 14:22:17,335 - INFO - Model loaded successfully: model/yamnet_float16.tflite
+2025-10-12 14:22:17,341 - INFO - Input shape: [1]
+2025-10-12 14:22:17,353 - INFO - Output shape: [  1 521]
+2025-10-12 14:22:17,356 - INFO - Bark logger started
+2025-10-12 14:22:17,396 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:22:17,499 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:22:17,601 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:22:17,706 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:22:17,809 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:22:17,913 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:22:18,023 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:22:18,126 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:22:18,228 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:22:18,330 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:22:18,433 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:22:18,536 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:22:18,639 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:22:18,743 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:22:18,847 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:22:18,951 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:22:19,055 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:22:19,158 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:22:19,261 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:22:19,365 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:22:19,469 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:22:19,573 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:22:19,676 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:22:19,780 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:22:19,884 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:22:19,987 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:22:20,091 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:22:20,195 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:22:20,307 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:22:20,375 - INFO - Bark logger stopped by user
+2025-10-12 14:22:20,435 - INFO - Audio resources cleaned up
+2025-10-12 14:25:22,592 - INFO - Audio stream initialized: 16000Hz, 1 channels
+2025-10-12 14:25:22,605 - INFO - Model loaded successfully: model/yamnet_float16.tflite
+2025-10-12 14:25:22,609 - INFO - Input shape: [1]
+2025-10-12 14:25:22,611 - INFO - Output shape: [  1 521]
+2025-10-12 14:25:22,614 - INFO - Bark logger started
+2025-10-12 14:25:22,664 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:25:22,767 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:25:22,869 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:25:22,972 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:25:23,074 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:25:23,177 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:25:23,279 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:25:23,381 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:25:23,484 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:25:23,586 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:25:23,688 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:25:23,791 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:25:23,799 - INFO - Bark logger stopped by user
+2025-10-12 14:25:23,884 - INFO - Audio resources cleaned up
+2025-10-12 14:28:33,502 - INFO - Audio stream initialized: 16000Hz, 1 channels
+2025-10-12 14:28:33,515 - INFO - Model loaded successfully: model/yamnet_float16.tflite
+2025-10-12 14:28:33,523 - INFO - Input shape: [1]
+2025-10-12 14:28:33,526 - INFO - Output shape: [  1 521]
+2025-10-12 14:28:33,529 - INFO - Bark logger started
+2025-10-12 14:28:33,551 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:28:33,653 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:28:33,755 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:28:33,858 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:28:33,960 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:28:34,063 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:28:34,165 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:28:34,267 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:28:34,369 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:28:34,472 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:28:34,574 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:28:34,676 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:28:34,779 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:28:34,881 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:28:34,922 - INFO - Bark logger stopped by user
+2025-10-12 14:28:34,945 - INFO - Audio resources cleaned up
+2025-10-12 14:29:46,961 - INFO - Audio stream initialized: 16000Hz, 1 channels
+2025-10-12 14:29:46,981 - INFO - Model loaded successfully: model/yamnet_float16.tflite
+2025-10-12 14:29:46,984 - INFO - Input shape: [1]
+2025-10-12 14:29:46,986 - INFO - Output shape: [  1 521]
+2025-10-12 14:29:46,988 - INFO - Bark logger started
+2025-10-12 14:29:47,006 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 1024 but expected 1 for dimension 0 of input 0.
+2025-10-12 14:29:47,108 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 1024 but expected 1 for dimension 0 of input 0.
+2025-10-12 14:29:47,211 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 1024 but expected 1 for dimension 0 of input 0.
+2025-10-12 14:29:47,313 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 1024 but expected 1 for dimension 0 of input 0.
+2025-10-12 14:29:47,416 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 1024 but expected 1 for dimension 0 of input 0.
+2025-10-12 14:29:47,518 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 1024 but expected 1 for dimension 0 of input 0.
+2025-10-12 14:29:47,620 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 1024 but expected 1 for dimension 0 of input 0.
+2025-10-12 14:29:47,722 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 1024 but expected 1 for dimension 0 of input 0.
+2025-10-12 14:29:47,824 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 1024 but expected 1 for dimension 0 of input 0.
+2025-10-12 14:29:47,927 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 1024 but expected 1 for dimension 0 of input 0.
+2025-10-12 14:29:48,029 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 1024 but expected 1 for dimension 0 of input 0.
+2025-10-12 14:29:48,131 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 1024 but expected 1 for dimension 0 of input 0.
+2025-10-12 14:29:48,233 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 1024 but expected 1 for dimension 0 of input 0.
+2025-10-12 14:29:48,335 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 1024 but expected 1 for dimension 0 of input 0.
+2025-10-12 14:29:48,438 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 1024 but expected 1 for dimension 0 of input 0.
+2025-10-12 14:29:48,542 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 1024 but expected 1 for dimension 0 of input 0.
+2025-10-12 14:29:48,639 - INFO - Bark logger stopped by user
+2025-10-12 14:29:48,666 - INFO - Audio resources cleaned up
+2025-10-12 14:39:10,510 - INFO - Audio stream initialized: 16000Hz, 1 channels
+2025-10-12 14:39:10,523 - INFO - Model loaded successfully: model/yamnet_float16.tflite
+2025-10-12 14:39:10,529 - INFO - Input shape: [1]
+2025-10-12 14:39:10,532 - INFO - Output shape: [  1 521]
+2025-10-12 14:39:10,535 - INFO - Bark logger started
+2025-10-12 14:39:10,595 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:39:10,698 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:39:10,801 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:39:10,903 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:39:11,006 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:39:11,109 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:39:11,211 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:39:11,314 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:39:11,416 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:39:11,519 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:39:11,621 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:39:11,724 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:39:11,826 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:39:11,929 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:39:12,032 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:39:12,134 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:39:12,237 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:39:12,339 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:39:12,442 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:39:12,544 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:39:12,647 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:39:12,749 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:39:12,852 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:39:12,954 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:39:13,057 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:39:13,159 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:39:13,262 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:39:13,365 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:39:13,467 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:39:13,570 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:39:13,672 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:39:13,776 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:39:13,879 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:39:13,982 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:39:14,085 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:39:14,178 - INFO - Bark logger stopped by user
+2025-10-12 14:39:14,205 - INFO - Audio resources cleaned up
+2025-10-12 14:40:01,714 - INFO - Audio stream initialized: 16000Hz, 1 channels
+2025-10-12 14:40:01,727 - INFO - Model loaded successfully: model/yamnet_float16.tflite
+2025-10-12 14:40:01,736 - INFO - Input shape: [1]
+2025-10-12 14:40:01,741 - INFO - Output shape: [  1 521]
+2025-10-12 14:40:01,746 - INFO - Bark logger started
+2025-10-12 14:40:01,790 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:40:01,893 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:40:01,997 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:40:02,100 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:40:02,204 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:40:02,308 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:40:02,412 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:40:02,516 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:40:02,619 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:40:02,723 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:40:02,826 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:40:02,930 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:40:03,033 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:40:03,136 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:40:03,240 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:40:03,343 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:40:03,446 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:40:03,496 - INFO - Bark logger stopped by user
+2025-10-12 14:40:03,521 - INFO - Audio resources cleaned up
+2025-10-12 14:41:52,367 - INFO - Audio stream initialized: 16000Hz, 1 channels
+2025-10-12 14:41:52,383 - INFO - Model loaded successfully: model/yamnet_float16.tflite
+2025-10-12 14:41:52,388 - INFO - Input shape: [1]
+2025-10-12 14:41:52,394 - INFO - Output shape: [  1 521]
+2025-10-12 14:41:52,399 - INFO - Bark logger started
+2025-10-12 14:41:52,429 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:41:52,532 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:41:52,634 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:41:52,737 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:41:52,840 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:41:52,942 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:41:53,046 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:41:53,148 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:41:53,251 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:41:53,353 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:41:53,456 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:41:53,558 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:41:53,661 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:41:53,764 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:41:53,867 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:41:53,969 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:41:54,072 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:41:54,174 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:41:54,287 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:41:54,389 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:41:54,492 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:41:54,594 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:41:54,697 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:41:54,800 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:41:54,903 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:41:55,006 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:41:55,108 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:41:55,211 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:41:55,314 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:41:55,417 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:41:55,519 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:41:55,622 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:41:55,725 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:41:55,829 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:41:55,931 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:41:56,034 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:41:56,146 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:41:56,249 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:41:56,352 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:41:56,457 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:41:56,561 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:41:56,665 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 14:41:56,722 - INFO - Bark logger stopped by user
+2025-10-12 14:41:56,756 - INFO - Audio resources cleaned up
+2025-10-12 14:43:15,045 - INFO - Audio stream initialized: 16000Hz, 1 channels
+2025-10-12 14:43:15,061 - INFO - Model loaded successfully: model/yamnet_float16.tflite
+2025-10-12 14:43:15,073 - INFO - Input shape: [1]
+2025-10-12 14:43:15,078 - INFO - Output shape: [  1 521]
+2025-10-12 14:43:15,082 - INFO - Bark logger started
+2025-10-12 14:43:58,151 - INFO - Bark logger stopped by user
+2025-10-12 14:43:58,195 - INFO - Audio resources cleaned up
+2025-10-12 21:01:52,208 - INFO - Audio stream initialized: 16000Hz, 1 channels
+2025-10-12 21:01:52,221 - INFO - Model loaded successfully: model/yamnet_float16.tflite
+2025-10-12 21:01:52,224 - INFO - Input shape: [1]
+2025-10-12 21:01:52,230 - INFO - Output shape: [  1 521]
+2025-10-12 21:01:52,233 - INFO - Bark logger started
+2025-10-12 21:01:59,510 - INFO - Bark logger stopped by user
+2025-10-12 21:01:59,534 - INFO - Audio resources cleaned up
+2025-10-12 21:10:36,277 - INFO - Audio stream initialized: 16000Hz, 1 channels
+2025-10-12 21:10:36,298 - INFO - Model loaded successfully: model/yamnet_float16.tflite
+2025-10-12 21:10:36,301 - INFO - Input shape: [1]
+2025-10-12 21:10:36,303 - INFO - Output shape: [  1 521]
+2025-10-12 21:10:36,305 - INFO - Bark logger started
+2025-10-12 21:11:23,199 - INFO - Bark logger stopped by user
+2025-10-12 21:11:23,232 - INFO - Audio resources cleaned up
+2025-10-12 21:17:52,644 - INFO - Audio stream initialized: 16000Hz, 1 channels
+2025-10-12 21:17:52,664 - INFO - Model loaded successfully: model/yamnet_float16.tflite
+2025-10-12 21:17:52,674 - INFO - Input shape: [1]
+2025-10-12 21:17:52,679 - INFO - Output shape: [  1 521]
+2025-10-12 21:17:52,681 - INFO - Bark logger started
+2025-10-12 21:18:29,374 - INFO - Bark logger stopped by user
+2025-10-12 21:18:29,407 - INFO - Audio resources cleaned up
+2025-10-12 21:30:06,938 - INFO - Audio stream initialized: 16000Hz, 1 channels
+2025-10-12 21:30:06,960 - INFO - Model loaded successfully: model/yamnet_float16.tflite
+2025-10-12 21:30:06,963 - INFO - Input shape: [15600]
+2025-10-12 21:30:06,965 - INFO - Output shape: [  1 521]
+2025-10-12 21:30:06,968 - INFO - Bark logger started
+2025-10-12 21:30:17,209 - INFO - Bark logger stopped by user
+2025-10-12 21:30:17,245 - INFO - Audio resources cleaned up
+2025-10-12 21:30:54,155 - INFO - Audio stream initialized: 16000Hz, 1 channels
+2025-10-12 21:30:54,182 - INFO - Model loaded successfully: model/yamnet_float16.tflite
+2025-10-12 21:30:54,185 - INFO - Input shape: [15600]
+2025-10-12 21:30:54,189 - INFO - Output shape: [  1 521]
+2025-10-12 21:30:54,192 - INFO - Bark logger started
+2025-10-12 21:30:54,232 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 21:30:54,336 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 21:30:54,438 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 21:30:54,541 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 21:30:54,644 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 21:30:54,746 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 21:30:54,850 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 21:30:54,953 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 21:30:55,057 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 21:30:55,160 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 21:30:55,263 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 21:30:55,366 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 21:30:55,468 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 21:30:55,571 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 21:30:55,673 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 21:30:55,776 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 21:30:55,879 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 21:30:55,981 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 21:30:56,084 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 21:30:56,186 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 21:30:56,289 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 21:30:56,391 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 21:30:56,494 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 21:30:56,596 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 21:30:56,698 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 21:30:56,801 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 21:30:56,903 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 21:30:57,005 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 21:30:57,108 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 21:30:57,210 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 21:30:57,314 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 21:30:57,417 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 21:30:57,520 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 21:30:57,623 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 21:30:57,727 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 21:30:57,829 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 21:30:57,932 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 21:30:57,951 - INFO - Bark logger stopped by user
+2025-10-12 21:30:57,984 - INFO - Audio resources cleaned up
+2025-10-12 21:31:38,149 - INFO - Audio stream initialized: 16000Hz, 1 channels
+2025-10-12 21:31:38,170 - INFO - Model loaded successfully: model/yamnet_float16.tflite
+2025-10-12 21:31:38,174 - INFO - Input shape: [15600]
+2025-10-12 21:31:38,178 - INFO - Output shape: [  1 521]
+2025-10-12 21:31:38,182 - INFO - Bark logger started
+2025-10-12 21:31:38,224 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 21:31:38,327 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 21:31:38,430 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 21:31:38,533 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 21:31:38,636 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 21:31:38,740 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 21:31:38,842 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 21:31:38,945 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 21:31:39,048 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 21:31:39,150 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 21:31:39,253 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 21:31:39,355 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 21:31:39,457 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 21:31:39,488 - INFO - Bark logger stopped by user
+2025-10-12 21:31:39,518 - INFO - Audio resources cleaned up
+2025-10-12 21:31:51,607 - INFO - Audio stream initialized: 16000Hz, 1 channels
+2025-10-12 21:31:51,624 - INFO - Model loaded successfully: model/yamnet_float16.tflite
+2025-10-12 21:31:51,630 - INFO - Input shape: [15600]
+2025-10-12 21:31:51,634 - INFO - Output shape: [  1 521]
+2025-10-12 21:31:51,637 - INFO - Bark logger started
+2025-10-12 21:32:57,608 - INFO - Bark logger stopped by user
+2025-10-12 21:32:57,651 - INFO - Audio resources cleaned up
+2025-10-12 21:39:46,687 - INFO - Audio stream initialized: 16000Hz, 1 channels
+2025-10-12 21:39:46,711 - INFO - Model loaded successfully: model/yamnet_float16.tflite
+2025-10-12 21:39:46,715 - INFO - Input shape: [15600]
+2025-10-12 21:39:46,720 - INFO - Output shape: [  1 521]
+2025-10-12 21:39:46,723 - INFO - Bark logger started
+2025-10-12 21:39:46,759 - ERROR - Error during inference: index 1 is out of bounds for axis 0 with size 1
+2025-10-12 21:39:46,861 - ERROR - Error during inference: index 1 is out of bounds for axis 0 with size 1
+2025-10-12 21:39:46,962 - ERROR - Error during inference: index 1 is out of bounds for axis 0 with size 1
+2025-10-12 21:39:47,064 - ERROR - Error during inference: index 1 is out of bounds for axis 0 with size 1
+2025-10-12 21:39:47,166 - ERROR - Error during inference: index 1 is out of bounds for axis 0 with size 1
+2025-10-12 21:39:47,267 - ERROR - Error during inference: index 1 is out of bounds for axis 0 with size 1
+2025-10-12 21:39:47,369 - ERROR - Error during inference: index 1 is out of bounds for axis 0 with size 1
+2025-10-12 21:39:47,471 - ERROR - Error during inference: index 1 is out of bounds for axis 0 with size 1
+2025-10-12 21:39:47,572 - ERROR - Error during inference: index 1 is out of bounds for axis 0 with size 1
+2025-10-12 21:39:47,673 - ERROR - Error during inference: index 1 is out of bounds for axis 0 with size 1
+2025-10-12 21:39:47,775 - ERROR - Error during inference: index 1 is out of bounds for axis 0 with size 1
+2025-10-12 21:39:47,877 - ERROR - Error during inference: index 1 is out of bounds for axis 0 with size 1
+2025-10-12 21:39:47,978 - ERROR - Error during inference: index 1 is out of bounds for axis 0 with size 1
+2025-10-12 21:39:48,080 - ERROR - Error during inference: index 1 is out of bounds for axis 0 with size 1
+2025-10-12 21:39:48,183 - ERROR - Error during inference: index 1 is out of bounds for axis 0 with size 1
+2025-10-12 21:39:48,284 - ERROR - Error during inference: index 1 is out of bounds for axis 0 with size 1
+2025-10-12 21:39:48,386 - ERROR - Error during inference: index 1 is out of bounds for axis 0 with size 1
+2025-10-12 21:39:48,488 - ERROR - Error during inference: index 1 is out of bounds for axis 0 with size 1
+2025-10-12 21:39:48,590 - ERROR - Error during inference: index 1 is out of bounds for axis 0 with size 1
+2025-10-12 21:39:48,692 - ERROR - Error during inference: index 1 is out of bounds for axis 0 with size 1
+2025-10-12 21:39:48,795 - ERROR - Error during inference: index 1 is out of bounds for axis 0 with size 1
+2025-10-12 21:39:48,897 - ERROR - Error during inference: index 1 is out of bounds for axis 0 with size 1
+2025-10-12 21:39:48,999 - ERROR - Error during inference: index 1 is out of bounds for axis 0 with size 1
+2025-10-12 21:39:49,101 - ERROR - Error during inference: index 1 is out of bounds for axis 0 with size 1
+2025-10-12 21:39:49,204 - ERROR - Error during inference: index 1 is out of bounds for axis 0 with size 1
+2025-10-12 21:39:49,307 - ERROR - Error during inference: index 1 is out of bounds for axis 0 with size 1
+2025-10-12 21:39:49,409 - ERROR - Error during inference: index 1 is out of bounds for axis 0 with size 1
+2025-10-12 21:39:49,511 - ERROR - Error during inference: index 1 is out of bounds for axis 0 with size 1
+2025-10-12 21:39:49,613 - ERROR - Error during inference: index 1 is out of bounds for axis 0 with size 1
+2025-10-12 21:39:49,715 - ERROR - Error during inference: index 1 is out of bounds for axis 0 with size 1
+2025-10-12 21:39:49,817 - ERROR - Error during inference: index 1 is out of bounds for axis 0 with size 1
+2025-10-12 21:39:49,919 - ERROR - Error during inference: index 1 is out of bounds for axis 0 with size 1
+2025-10-12 21:39:50,021 - ERROR - Error during inference: index 1 is out of bounds for axis 0 with size 1
+2025-10-12 21:39:50,123 - ERROR - Error during inference: index 1 is out of bounds for axis 0 with size 1
+2025-10-12 21:39:50,225 - ERROR - Error during inference: index 1 is out of bounds for axis 0 with size 1
+2025-10-12 21:39:50,327 - ERROR - Error during inference: index 1 is out of bounds for axis 0 with size 1
+2025-10-12 21:39:50,429 - ERROR - Error during inference: index 1 is out of bounds for axis 0 with size 1
+2025-10-12 21:39:50,531 - ERROR - Error during inference: index 1 is out of bounds for axis 0 with size 1
+2025-10-12 21:39:50,632 - ERROR - Error during inference: index 1 is out of bounds for axis 0 with size 1
+2025-10-12 21:39:50,734 - ERROR - Error during inference: index 1 is out of bounds for axis 0 with size 1
+2025-10-12 21:39:50,836 - ERROR - Error during inference: index 1 is out of bounds for axis 0 with size 1
+2025-10-12 21:39:50,938 - ERROR - Error during inference: index 1 is out of bounds for axis 0 with size 1
+2025-10-12 21:39:51,039 - ERROR - Error during inference: index 1 is out of bounds for axis 0 with size 1
+2025-10-12 21:39:51,141 - ERROR - Error during inference: index 1 is out of bounds for axis 0 with size 1
+2025-10-12 21:39:51,242 - ERROR - Error during inference: index 1 is out of bounds for axis 0 with size 1
+2025-10-12 21:39:51,345 - ERROR - Error during inference: index 1 is out of bounds for axis 0 with size 1
+2025-10-12 21:39:51,447 - ERROR - Error during inference: index 1 is out of bounds for axis 0 with size 1
+2025-10-12 21:39:51,549 - ERROR - Error during inference: index 1 is out of bounds for axis 0 with size 1
+2025-10-12 21:39:51,651 - ERROR - Error during inference: index 1 is out of bounds for axis 0 with size 1
+2025-10-12 21:39:51,753 - ERROR - Error during inference: index 1 is out of bounds for axis 0 with size 1
+2025-10-12 21:39:51,855 - ERROR - Error during inference: index 1 is out of bounds for axis 0 with size 1
+2025-10-12 21:39:51,957 - ERROR - Error during inference: index 1 is out of bounds for axis 0 with size 1
+2025-10-12 21:39:52,059 - ERROR - Error during inference: index 1 is out of bounds for axis 0 with size 1
+2025-10-12 21:39:52,161 - ERROR - Error during inference: index 1 is out of bounds for axis 0 with size 1
+2025-10-12 21:39:52,263 - ERROR - Error during inference: index 1 is out of bounds for axis 0 with size 1
+2025-10-12 21:39:52,365 - ERROR - Error during inference: index 1 is out of bounds for axis 0 with size 1
+2025-10-12 21:39:52,467 - ERROR - Error during inference: index 1 is out of bounds for axis 0 with size 1
+2025-10-12 21:39:52,569 - ERROR - Error during inference: index 1 is out of bounds for axis 0 with size 1
+2025-10-12 21:39:52,671 - ERROR - Error during inference: index 1 is out of bounds for axis 0 with size 1
+2025-10-12 21:39:52,773 - ERROR - Error during inference: index 1 is out of bounds for axis 0 with size 1
+2025-10-12 21:39:52,875 - ERROR - Error during inference: index 1 is out of bounds for axis 0 with size 1
+2025-10-12 21:39:52,977 - ERROR - Error during inference: index 1 is out of bounds for axis 0 with size 1
+2025-10-12 21:39:53,078 - ERROR - Error during inference: index 1 is out of bounds for axis 0 with size 1
+2025-10-12 21:39:53,180 - ERROR - Error during inference: index 1 is out of bounds for axis 0 with size 1
+2025-10-12 21:39:53,282 - ERROR - Error during inference: index 1 is out of bounds for axis 0 with size 1
+2025-10-12 21:39:53,383 - ERROR - Error during inference: index 1 is out of bounds for axis 0 with size 1
+2025-10-12 21:39:53,485 - ERROR - Error during inference: index 1 is out of bounds for axis 0 with size 1
+2025-10-12 21:39:53,587 - ERROR - Error during inference: index 1 is out of bounds for axis 0 with size 1
+2025-10-12 21:39:53,689 - ERROR - Error during inference: index 1 is out of bounds for axis 0 with size 1
+2025-10-12 21:39:53,790 - ERROR - Error during inference: index 1 is out of bounds for axis 0 with size 1
+2025-10-12 21:39:53,892 - ERROR - Error during inference: index 1 is out of bounds for axis 0 with size 1
+2025-10-12 21:39:53,993 - ERROR - Error during inference: index 1 is out of bounds for axis 0 with size 1
+2025-10-12 21:39:54,096 - ERROR - Error during inference: index 1 is out of bounds for axis 0 with size 1
+2025-10-12 21:39:54,198 - ERROR - Error during inference: index 1 is out of bounds for axis 0 with size 1
+2025-10-12 21:39:54,300 - ERROR - Error during inference: index 1 is out of bounds for axis 0 with size 1
+2025-10-12 21:39:54,402 - ERROR - Error during inference: index 1 is out of bounds for axis 0 with size 1
+2025-10-12 21:39:54,504 - ERROR - Error during inference: index 1 is out of bounds for axis 0 with size 1
+2025-10-12 21:39:54,607 - ERROR - Error during inference: index 1 is out of bounds for axis 0 with size 1
+2025-10-12 21:39:54,709 - ERROR - Error during inference: index 1 is out of bounds for axis 0 with size 1
+2025-10-12 21:39:54,810 - ERROR - Error during inference: index 1 is out of bounds for axis 0 with size 1
+2025-10-12 21:39:54,912 - ERROR - Error during inference: index 1 is out of bounds for axis 0 with size 1
+2025-10-12 21:39:55,014 - ERROR - Error during inference: index 1 is out of bounds for axis 0 with size 1
+2025-10-12 21:39:55,075 - INFO - Bark logger stopped by user
+2025-10-12 21:39:55,110 - INFO - Audio resources cleaned up
+2025-10-12 21:43:02,189 - INFO - Audio stream initialized: 16000Hz, 1 channels
+2025-10-12 21:43:02,213 - INFO - Model loaded successfully: model/yamnet_float16.tflite
+2025-10-12 21:43:02,216 - INFO - Input shape: [15600]
+2025-10-12 21:43:02,219 - INFO - Output shape: [  1 521]
+2025-10-12 21:43:02,222 - INFO - Bark logger started
+2025-10-12 21:43:02,267 - ERROR - Error during inference: index 1 is out of bounds for axis 0 with size 1
+2025-10-12 21:43:02,369 - ERROR - Error during inference: index 1 is out of bounds for axis 0 with size 1
+2025-10-12 21:43:02,471 - ERROR - Error during inference: index 1 is out of bounds for axis 0 with size 1
+2025-10-12 21:43:02,572 - ERROR - Error during inference: index 1 is out of bounds for axis 0 with size 1
+2025-10-12 21:43:02,674 - ERROR - Error during inference: index 1 is out of bounds for axis 0 with size 1
+2025-10-12 21:43:02,776 - ERROR - Error during inference: index 1 is out of bounds for axis 0 with size 1
+2025-10-12 21:43:02,877 - ERROR - Error during inference: index 1 is out of bounds for axis 0 with size 1
+2025-10-12 21:43:02,979 - ERROR - Error during inference: index 1 is out of bounds for axis 0 with size 1
+2025-10-12 21:43:03,081 - ERROR - Error during inference: index 1 is out of bounds for axis 0 with size 1
+2025-10-12 21:43:03,182 - ERROR - Error during inference: index 1 is out of bounds for axis 0 with size 1
+2025-10-12 21:43:03,233 - INFO - Bark logger stopped by user
+2025-10-12 21:43:03,263 - INFO - Audio resources cleaned up
+2025-10-12 21:47:07,523 - INFO - Audio stream initialized: 16000Hz, 1 channels
+2025-10-12 21:47:07,543 - INFO - Model loaded successfully: model/yamnet_float16.tflite
+2025-10-12 21:47:07,548 - INFO - Input details: [{'name': 'waveform_binary', 'index': 0, 'shape': array([15600]), 'shape_signature': array([15600]), 'dtype': <class 'numpy.float32'>, 'quantization': (0.0, 0), 'quantization_parameters': {'scales': array([], dtype=float32), 'zero_points': array([], dtype=int32), 'quantized_dimension': 0}, 'sparsity_parameters': {}}]
+2025-10-12 21:47:07,553 - INFO - Output details: [{'name': 'tower0/network/layer32/final_output', 'index': 120, 'shape': array([  1, 521]), 'shape_signature': array([  1, 521]), 'dtype': <class 'numpy.float32'>, 'quantization': (0.0, 0), 'quantization_parameters': {'scales': array([], dtype=float32), 'zero_points': array([], dtype=int32), 'quantized_dimension': 0}, 'sparsity_parameters': {}}]
+2025-10-12 21:47:07,556 - INFO - Bark logger started
+2025-10-12 21:47:07,604 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 21:47:07,708 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 21:47:07,811 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 21:47:07,914 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 21:47:08,018 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 21:47:08,121 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 21:47:08,224 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 21:47:08,328 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 21:47:08,431 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 21:47:08,534 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 21:47:08,639 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 21:47:08,742 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 21:47:08,760 - INFO - Bark logger stopped by user
+2025-10-12 21:47:08,790 - INFO - Audio resources cleaned up
+2025-10-12 21:49:27,063 - INFO - Audio stream initialized: 16000Hz, 1 channels
+2025-10-12 21:49:27,080 - INFO - Model loaded successfully: model/yamnet_float16.tflite
+2025-10-12 21:49:27,087 - INFO - Input details: [{'name': 'waveform_binary', 'index': 0, 'shape': array([15600]), 'shape_signature': array([15600]), 'dtype': <class 'numpy.float32'>, 'quantization': (0.0, 0), 'quantization_parameters': {'scales': array([], dtype=float32), 'zero_points': array([], dtype=int32), 'quantized_dimension': 0}, 'sparsity_parameters': {}}]
+2025-10-12 21:49:27,097 - INFO - Output details: [{'name': 'tower0/network/layer32/final_output', 'index': 120, 'shape': array([  1, 521]), 'shape_signature': array([  1, 521]), 'dtype': <class 'numpy.float32'>, 'quantization': (0.0, 0), 'quantization_parameters': {'scales': array([], dtype=float32), 'zero_points': array([], dtype=int32), 'quantized_dimension': 0}, 'sparsity_parameters': {}}]
+2025-10-12 21:49:27,100 - INFO - Bark logger started
+2025-10-12 21:49:27,141 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 21:49:27,245 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 21:49:27,348 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 21:49:27,452 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 21:49:27,556 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 21:49:27,660 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 21:49:27,764 - ERROR - Error during inference: Cannot set tensor: Dimension mismatch. Got 2 but expected 1 for input 0.
+2025-10-12 21:49:27,859 - INFO - Bark logger stopped by user
+2025-10-12 21:49:27,884 - INFO - Audio resources cleaned up
+2025-10-12 21:50:08,871 - INFO - Audio stream initialized: 16000Hz, 1 channels
+2025-10-12 21:50:08,894 - INFO - Model loaded successfully: model/yamnet_float16.tflite
+2025-10-12 21:50:08,900 - INFO - Input details: [{'name': 'waveform_binary', 'index': 0, 'shape': array([15600]), 'shape_signature': array([15600]), 'dtype': <class 'numpy.float32'>, 'quantization': (0.0, 0), 'quantization_parameters': {'scales': array([], dtype=float32), 'zero_points': array([], dtype=int32), 'quantized_dimension': 0}, 'sparsity_parameters': {}}]
+2025-10-12 21:50:08,906 - INFO - Output details: [{'name': 'tower0/network/layer32/final_output', 'index': 120, 'shape': array([  1, 521]), 'shape_signature': array([  1, 521]), 'dtype': <class 'numpy.float32'>, 'quantization': (0.0, 0), 'quantization_parameters': {'scales': array([], dtype=float32), 'zero_points': array([], dtype=int32), 'quantized_dimension': 0}, 'sparsity_parameters': {}}]
+2025-10-12 21:50:08,910 - INFO - Bark logger started
+2025-10-12 21:50:08,945 - ERROR - Error during inference: 'BarkDetector' object has no attribute 'input_shape'
+2025-10-12 21:50:09,047 - ERROR - Error during inference: 'BarkDetector' object has no attribute 'input_shape'
+2025-10-12 21:50:09,149 - ERROR - Error during inference: 'BarkDetector' object has no attribute 'input_shape'
+2025-10-12 21:50:09,251 - ERROR - Error during inference: 'BarkDetector' object has no attribute 'input_shape'
+2025-10-12 21:50:09,353 - ERROR - Error during inference: 'BarkDetector' object has no attribute 'input_shape'
+2025-10-12 21:50:09,456 - ERROR - Error during inference: 'BarkDetector' object has no attribute 'input_shape'
+2025-10-12 21:50:09,558 - ERROR - Error during inference: 'BarkDetector' object has no attribute 'input_shape'
+2025-10-12 21:50:09,660 - ERROR - Error during inference: 'BarkDetector' object has no attribute 'input_shape'
+2025-10-12 21:50:09,762 - ERROR - Error during inference: 'BarkDetector' object has no attribute 'input_shape'
+2025-10-12 21:50:09,864 - ERROR - Error during inference: 'BarkDetector' object has no attribute 'input_shape'
+2025-10-12 21:50:09,967 - ERROR - Error during inference: 'BarkDetector' object has no attribute 'input_shape'
+2025-10-12 21:50:10,011 - INFO - Bark logger stopped by user
+2025-10-12 21:50:10,038 - INFO - Audio resources cleaned up
+2025-10-12 21:50:35,248 - INFO - Audio stream initialized: 16000Hz, 1 channels
+2025-10-12 21:50:35,265 - INFO - Model loaded successfully: model/yamnet_float16.tflite
+2025-10-12 21:50:35,270 - INFO - Input details: [{'name': 'waveform_binary', 'index': 0, 'shape': array([15600]), 'shape_signature': array([15600]), 'dtype': <class 'numpy.float32'>, 'quantization': (0.0, 0), 'quantization_parameters': {'scales': array([], dtype=float32), 'zero_points': array([], dtype=int32), 'quantized_dimension': 0}, 'sparsity_parameters': {}}]
+2025-10-12 21:50:35,278 - INFO - Output details: [{'name': 'tower0/network/layer32/final_output', 'index': 120, 'shape': array([  1, 521]), 'shape_signature': array([  1, 521]), 'dtype': <class 'numpy.float32'>, 'quantization': (0.0, 0), 'quantization_parameters': {'scales': array([], dtype=float32), 'zero_points': array([], dtype=int32), 'quantized_dimension': 0}, 'sparsity_parameters': {}}]
+2025-10-12 21:50:35,281 - INFO - Bark logger started
+2025-10-12 21:50:35,336 - ERROR - Error during inference: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (2,) + inhomogeneous part.
+2025-10-12 21:50:35,439 - ERROR - Error during inference: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (2,) + inhomogeneous part.
+2025-10-12 21:50:35,541 - ERROR - Error during inference: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (2,) + inhomogeneous part.
+2025-10-12 21:50:35,645 - ERROR - Error during inference: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (2,) + inhomogeneous part.
+2025-10-12 21:50:35,747 - ERROR - Error during inference: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (2,) + inhomogeneous part.
+2025-10-12 21:50:35,850 - ERROR - Error during inference: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (2,) + inhomogeneous part.
+2025-10-12 21:50:35,953 - ERROR - Error during inference: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (2,) + inhomogeneous part.
+2025-10-12 21:50:36,056 - ERROR - Error during inference: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (2,) + inhomogeneous part.
+2025-10-12 21:50:36,158 - ERROR - Error during inference: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (2,) + inhomogeneous part.
+2025-10-12 21:50:36,259 - ERROR - Error during inference: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (2,) + inhomogeneous part.
+2025-10-12 21:50:36,363 - ERROR - Error during inference: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (2,) + inhomogeneous part.
+2025-10-12 21:50:36,466 - ERROR - Error during inference: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (2,) + inhomogeneous part.
+2025-10-12 21:50:36,567 - ERROR - Error during inference: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (2,) + inhomogeneous part.
+2025-10-12 21:50:36,670 - INFO - Bark logger stopped by user
+2025-10-12 21:50:36,695 - INFO - Audio resources cleaned up
+2025-10-12 21:51:08,974 - INFO - Audio stream initialized: 16000Hz, 1 channels
+2025-10-12 21:51:08,996 - INFO - Model loaded successfully: model/yamnet_float16.tflite
+2025-10-12 21:51:09,001 - INFO - Input details: [{'name': 'waveform_binary', 'index': 0, 'shape': array([15600]), 'shape_signature': array([15600]), 'dtype': <class 'numpy.float32'>, 'quantization': (0.0, 0), 'quantization_parameters': {'scales': array([], dtype=float32), 'zero_points': array([], dtype=int32), 'quantized_dimension': 0}, 'sparsity_parameters': {}}]
+2025-10-12 21:51:09,006 - INFO - Output details: [{'name': 'tower0/network/layer32/final_output', 'index': 120, 'shape': array([  1, 521]), 'shape_signature': array([  1, 521]), 'dtype': <class 'numpy.float32'>, 'quantization': (0.0, 0), 'quantization_parameters': {'scales': array([], dtype=float32), 'zero_points': array([], dtype=int32), 'quantized_dimension': 0}, 'sparsity_parameters': {}}]
+2025-10-12 21:51:09,009 - INFO - Bark logger started
+2025-10-12 21:51:09,041 - ERROR - Error during inference: '>' not supported between instances of 'int' and 'list'
+2025-10-12 21:51:09,143 - ERROR - Error during inference: '>' not supported between instances of 'int' and 'list'
+2025-10-12 21:51:09,246 - ERROR - Error during inference: '>' not supported between instances of 'int' and 'list'
+2025-10-12 21:51:09,348 - ERROR - Error during inference: '>' not supported between instances of 'int' and 'list'
+2025-10-12 21:51:09,450 - ERROR - Error during inference: '>' not supported between instances of 'int' and 'list'
+2025-10-12 21:51:09,552 - ERROR - Error during inference: '>' not supported between instances of 'int' and 'list'
+2025-10-12 21:51:09,654 - ERROR - Error during inference: '>' not supported between instances of 'int' and 'list'
+2025-10-12 21:51:09,757 - ERROR - Error during inference: '>' not supported between instances of 'int' and 'list'
+2025-10-12 21:51:09,859 - ERROR - Error during inference: '>' not supported between instances of 'int' and 'list'
+2025-10-12 21:51:09,961 - ERROR - Error during inference: '>' not supported between instances of 'int' and 'list'
+2025-10-12 21:51:10,063 - ERROR - Error during inference: '>' not supported between instances of 'int' and 'list'
+2025-10-12 21:51:10,136 - INFO - Bark logger stopped by user
+2025-10-12 21:51:10,165 - INFO - Audio resources cleaned up
+2025-10-12 21:51:22,633 - INFO - Audio stream initialized: 16000Hz, 1 channels
+2025-10-12 21:51:22,649 - INFO - Model loaded successfully: model/yamnet_float16.tflite
+2025-10-12 21:51:22,656 - INFO - Input details: [{'name': 'waveform_binary', 'index': 0, 'shape': array([15600]), 'shape_signature': array([15600]), 'dtype': <class 'numpy.float32'>, 'quantization': (0.0, 0), 'quantization_parameters': {'scales': array([], dtype=float32), 'zero_points': array([], dtype=int32), 'quantized_dimension': 0}, 'sparsity_parameters': {}}]
+2025-10-12 21:51:22,664 - INFO - Output details: [{'name': 'tower0/network/layer32/final_output', 'index': 120, 'shape': array([  1, 521]), 'shape_signature': array([  1, 521]), 'dtype': <class 'numpy.float32'>, 'quantization': (0.0, 0), 'quantization_parameters': {'scales': array([], dtype=float32), 'zero_points': array([], dtype=int32), 'quantized_dimension': 0}, 'sparsity_parameters': {}}]
+2025-10-12 21:51:22,668 - INFO - Bark logger started
+2025-10-12 21:52:16,224 - INFO - Bark logger stopped by user
+2025-10-12 21:52:16,258 - INFO - Audio resources cleaned up
+2025-10-12 22:13:43,570 - INFO - Audio stream initialized: 16000Hz, 1 channels
+2025-10-12 22:13:43,600 - ERROR - Failed to load model: index 1 is out of bounds for axis 0 with size 1
+2025-10-12 22:14:09,709 - INFO - Audio stream initialized: 16000Hz, 1 channels
+2025-10-12 22:14:09,734 - INFO - Model loaded successfully: model/yamnet_float16.tflite
+2025-10-12 22:14:09,745 - INFO - Input details: [{'name': 'waveform_binary', 'index': 0, 'shape': array([15600]), 'shape_signature': array([15600]), 'dtype': <class 'numpy.float32'>, 'quantization': (0.0, 0), 'quantization_parameters': {'scales': array([], dtype=float32), 'zero_points': array([], dtype=int32), 'quantized_dimension': 0}, 'sparsity_parameters': {}}]
+2025-10-12 22:14:09,752 - INFO - Output details: [{'name': 'tower0/network/layer32/final_output', 'index': 120, 'shape': array([  1, 521]), 'shape_signature': array([  1, 521]), 'dtype': <class 'numpy.float32'>, 'quantization': (0.0, 0), 'quantization_parameters': {'scales': array([], dtype=float32), 'zero_points': array([], dtype=int32), 'quantized_dimension': 0}, 'sparsity_parameters': {}}]
+2025-10-12 22:14:09,756 - INFO - Bark logger started
+2025-10-12 22:14:41,061 - ERROR - Failed to save audio clip: 'PosixPath' object has no attribute 'write'
+2025-10-12 22:14:41,068 - INFO - Bark event logged: 2025-10-12T22:14:41.060583, confidence: 0.668, file: recordings/2025-10-12_22-14-41.wav
+2025-10-12 22:14:41,069 - INFO - Bark detected! Confidence: 0.668, Saved: 2025-10-12_22-14-41.wav
+2025-10-12 22:14:43,962 - ERROR - Failed to save audio clip: 'PosixPath' object has no attribute 'write'
+2025-10-12 22:14:43,963 - INFO - Bark event logged: 2025-10-12T22:14:43.961155, confidence: 0.801, file: recordings/2025-10-12_22-14-43.wav
+2025-10-12 22:14:43,964 - INFO - Bark detected! Confidence: 0.801, Saved: 2025-10-12_22-14-43.wav
+2025-10-12 22:14:46,905 - ERROR - Failed to save audio clip: 'PosixPath' object has no attribute 'write'
+2025-10-12 22:14:46,907 - INFO - Bark event logged: 2025-10-12T22:14:46.904847, confidence: 0.668, file: recordings/2025-10-12_22-14-46.wav
+2025-10-12 22:14:46,908 - INFO - Bark detected! Confidence: 0.668, Saved: 2025-10-12_22-14-46.wav
+2025-10-12 22:14:48,868 - ERROR - Failed to save audio clip: 'PosixPath' object has no attribute 'write'
+2025-10-12 22:14:48,870 - INFO - Bark event logged: 2025-10-12T22:14:48.867741, confidence: 0.586, file: recordings/2025-10-12_22-14-48.wav
+2025-10-12 22:14:48,871 - INFO - Bark detected! Confidence: 0.586, Saved: 2025-10-12_22-14-48.wav
+2025-10-12 22:14:50,787 - ERROR - Failed to save audio clip: 'PosixPath' object has no attribute 'write'
+2025-10-12 22:14:50,789 - INFO - Bark event logged: 2025-10-12T22:14:50.786723, confidence: 0.586, file: recordings/2025-10-12_22-14-50.wav
+2025-10-12 22:14:50,790 - INFO - Bark detected! Confidence: 0.586, Saved: 2025-10-12_22-14-50.wav
+2025-10-12 22:16:07,843 - ERROR - Failed to save audio clip: 'PosixPath' object has no attribute 'write'
+2025-10-12 22:16:07,846 - INFO - Bark event logged: 2025-10-12T22:16:07.842920, confidence: 0.586, file: recordings/2025-10-12_22-16-07.wav
+2025-10-12 22:16:07,847 - INFO - Bark detected! Confidence: 0.586, Saved: 2025-10-12_22-16-07.wav
+2025-10-12 22:16:09,764 - ERROR - Failed to save audio clip: 'PosixPath' object has no attribute 'write'
+2025-10-12 22:16:09,766 - INFO - Bark event logged: 2025-10-12T22:16:09.763145, confidence: 0.586, file: recordings/2025-10-12_22-16-09.wav
+2025-10-12 22:16:09,767 - INFO - Bark detected! Confidence: 0.586, Saved: 2025-10-12_22-16-09.wav
+2025-10-12 22:16:51,583 - INFO - Bark logger stopped by user
+2025-10-12 22:16:51,611 - INFO - Audio resources cleaned up
+2025-10-12 22:18:22,657 - INFO - Audio stream initialized: 16000Hz, 1 channels
+2025-10-12 22:18:22,682 - INFO - Model loaded successfully: model/yamnet_float16.tflite
+2025-10-12 22:18:22,686 - INFO - Input details: [{'name': 'waveform_binary', 'index': 0, 'shape': array([15600]), 'shape_signature': array([15600]), 'dtype': <class 'numpy.float32'>, 'quantization': (0.0, 0), 'quantization_parameters': {'scales': array([], dtype=float32), 'zero_points': array([], dtype=int32), 'quantized_dimension': 0}, 'sparsity_parameters': {}}]
+2025-10-12 22:18:22,692 - INFO - Output details: [{'name': 'tower0/network/layer32/final_output', 'index': 120, 'shape': array([  1, 521]), 'shape_signature': array([  1, 521]), 'dtype': <class 'numpy.float32'>, 'quantization': (0.0, 0), 'quantization_parameters': {'scales': array([], dtype=float32), 'zero_points': array([], dtype=int32), 'quantized_dimension': 0}, 'sparsity_parameters': {}}]
+2025-10-12 22:18:22,696 - INFO - Bark logger started
+2025-10-12 22:18:42,316 - ERROR - Failed to save audio clip: 'PosixPath' object has no attribute 'write'
+2025-10-12 22:18:42,318 - INFO - Bark event logged: 2025-10-12T22:18:42.315532, confidence: 0.414, file: recordings/2025-10-12_22-18-42.wav
+2025-10-12 22:18:42,320 - INFO - Bark detected! Confidence: 0.414, Saved: 2025-10-12_22-18-42.wav
+2025-10-12 22:18:43,253 - ERROR - Failed to save audio clip: 'PosixPath' object has no attribute 'write'
+2025-10-12 22:18:43,256 - INFO - Bark event logged: 2025-10-12T22:18:43.252606, confidence: 0.414, file: recordings/2025-10-12_22-18-43.wav
+2025-10-12 22:18:43,257 - INFO - Bark detected! Confidence: 0.414, Saved: 2025-10-12_22-18-43.wav
+2025-10-12 22:21:05,511 - INFO - Bark logger stopped by user
+2025-10-12 22:21:05,537 - INFO - Audio resources cleaned up
+2025-10-12 22:21:10,142 - INFO - Audio stream initialized: 16000Hz, 1 channels
+2025-10-12 22:21:10,159 - INFO - Model loaded successfully: model/yamnet_float16.tflite
+2025-10-12 22:21:10,164 - INFO - Input details: [{'name': 'waveform_binary', 'index': 0, 'shape': array([15600]), 'shape_signature': array([15600]), 'dtype': <class 'numpy.float32'>, 'quantization': (0.0, 0), 'quantization_parameters': {'scales': array([], dtype=float32), 'zero_points': array([], dtype=int32), 'quantized_dimension': 0}, 'sparsity_parameters': {}}]
+2025-10-12 22:21:10,172 - INFO - Output details: [{'name': 'tower0/network/layer32/final_output', 'index': 120, 'shape': array([  1, 521]), 'shape_signature': array([  1, 521]), 'dtype': <class 'numpy.float32'>, 'quantization': (0.0, 0), 'quantization_parameters': {'scales': array([], dtype=float32), 'zero_points': array([], dtype=int32), 'quantized_dimension': 0}, 'sparsity_parameters': {}}]
+2025-10-12 22:21:10,177 - INFO - Bark logger started
+2025-10-12 22:21:19,027 - ERROR - Failed to save audio clip: name 'Path' is not defined
+2025-10-12 22:21:19,029 - INFO - Bark event logged: 2025-10-12T22:21:19.026443, confidence: 0.668, file: recordings/2025-10-12_22-21-19.wav
+2025-10-12 22:21:19,030 - INFO - Bark detected! Confidence: 0.668, Saved: 2025-10-12_22-21-19.wav
+2025-10-12 22:21:47,206 - INFO - Bark logger stopped by user
+2025-10-12 22:21:47,245 - INFO - Audio resources cleaned up
+2025-10-12 22:21:51,718 - INFO - Audio stream initialized: 16000Hz, 1 channels
+2025-10-12 22:21:51,734 - INFO - Model loaded successfully: model/yamnet_float16.tflite
+2025-10-12 22:21:51,759 - INFO - Input details: [{'name': 'waveform_binary', 'index': 0, 'shape': array([15600]), 'shape_signature': array([15600]), 'dtype': <class 'numpy.float32'>, 'quantization': (0.0, 0), 'quantization_parameters': {'scales': array([], dtype=float32), 'zero_points': array([], dtype=int32), 'quantized_dimension': 0}, 'sparsity_parameters': {}}]
+2025-10-12 22:21:51,786 - INFO - Output details: [{'name': 'tower0/network/layer32/final_output', 'index': 120, 'shape': array([  1, 521]), 'shape_signature': array([  1, 521]), 'dtype': <class 'numpy.float32'>, 'quantization': (0.0, 0), 'quantization_parameters': {'scales': array([], dtype=float32), 'zero_points': array([], dtype=int32), 'quantized_dimension': 0}, 'sparsity_parameters': {}}]
+2025-10-12 22:21:51,789 - INFO - Bark logger started
+2025-10-12 22:22:01,568 - INFO - Bark event logged: 2025-10-12T22:22:01.565042, confidence: 0.586, file: recordings/2025-10-12_22-22-01.wav
+2025-10-12 22:22:01,569 - INFO - Bark detected! Confidence: 0.586, Saved: 2025-10-12_22-22-01.wav
+2025-10-12 22:23:07,751 - INFO - Bark logger stopped by user
+2025-10-12 22:23:07,779 - INFO - Audio resources cleaned up
+2025-10-12 22:31:38,151 - INFO - Audio stream initialized: 16000Hz, 1 channels
+2025-10-12 22:31:38,170 - INFO - Model loaded successfully: model/yamnet_float16.tflite
+2025-10-12 22:31:38,177 - INFO - Input details: [{'name': 'waveform_binary', 'index': 0, 'shape': array([15600]), 'shape_signature': array([15600]), 'dtype': <class 'numpy.float32'>, 'quantization': (0.0, 0), 'quantization_parameters': {'scales': array([], dtype=float32), 'zero_points': array([], dtype=int32), 'quantized_dimension': 0}, 'sparsity_parameters': {}}]
+2025-10-12 22:31:38,185 - INFO - Output details: [{'name': 'tower0/network/layer32/final_output', 'index': 120, 'shape': array([  1, 521]), 'shape_signature': array([  1, 521]), 'dtype': <class 'numpy.float32'>, 'quantization': (0.0, 0), 'quantization_parameters': {'scales': array([], dtype=float32), 'zero_points': array([], dtype=int32), 'quantized_dimension': 0}, 'sparsity_parameters': {}}]
+2025-10-12 22:31:38,190 - INFO - Bark logger started
+2025-10-12 22:32:00,148 - INFO - Audio stream initialized: 16000Hz, 1 channels
+2025-10-12 22:32:00,188 - INFO - Model loaded successfully: model/yamnet_float16.tflite
+2025-10-12 22:32:00,193 - INFO - Input details: [{'name': 'waveform_binary', 'index': 0, 'shape': array([15600]), 'shape_signature': array([15600]), 'dtype': <class 'numpy.float32'>, 'quantization': (0.0, 0), 'quantization_parameters': {'scales': array([], dtype=float32), 'zero_points': array([], dtype=int32), 'quantized_dimension': 0}, 'sparsity_parameters': {}}]
+2025-10-12 22:32:00,199 - INFO - Output details: [{'name': 'tower0/network/layer32/final_output', 'index': 120, 'shape': array([  1, 521]), 'shape_signature': array([  1, 521]), 'dtype': <class 'numpy.float32'>, 'quantization': (0.0, 0), 'quantization_parameters': {'scales': array([], dtype=float32), 'zero_points': array([], dtype=int32), 'quantized_dimension': 0}, 'sparsity_parameters': {}}]
+2025-10-12 22:32:00,204 - INFO - Bark logger started
+2025-10-12 22:32:13,901 - INFO - Bark event logged: 2025-10-12T22:32:13.898144, confidence: 0.500, file: recordings/2025-10-12_22-32-13.wav
+2025-10-12 22:32:13,902 - INFO - Bark detected! Confidence: 0.500, Saved: 2025-10-12_22-32-13.wav
+2025-10-12 22:32:21,710 - INFO - Bark event logged: 2025-10-12T22:32:21.706552, confidence: 0.586, file: recordings/2025-10-12_22-32-21.wav
+2025-10-12 22:32:21,711 - INFO - Bark detected! Confidence: 0.586, Saved: 2025-10-12_22-32-21.wav
+2025-10-12 22:32:22,690 - INFO - Bark event logged: 2025-10-12T22:32:22.687383, confidence: 0.668, file: recordings/2025-10-12_22-32-22.wav
+2025-10-12 22:32:22,691 - INFO - Bark detected! Confidence: 0.668, Saved: 2025-10-12_22-32-22.wav
+2025-10-12 22:32:24,653 - INFO - Bark event logged: 2025-10-12T22:32:24.650330, confidence: 0.801, file: recordings/2025-10-12_22-32-24.wav
+2025-10-12 22:32:24,654 - INFO - Bark detected! Confidence: 0.801, Saved: 2025-10-12_22-32-24.wav
+2025-10-12 22:32:25,635 - INFO - Bark event logged: 2025-10-12T22:32:25.631931, confidence: 0.414, file: recordings/2025-10-12_22-32-25.wav
+2025-10-12 22:32:25,637 - INFO - Bark detected! Confidence: 0.414, Saved: 2025-10-12_22-32-25.wav
+2025-10-12 22:32:28,537 - INFO - Bark event logged: 2025-10-12T22:32:28.534423, confidence: 0.738, file: recordings/2025-10-12_22-32-28.wav
+2025-10-12 22:32:28,538 - INFO - Bark detected! Confidence: 0.738, Saved: 2025-10-12_22-32-28.wav
+2025-10-12 22:32:29,516 - INFO - Bark event logged: 2025-10-12T22:32:29.512840, confidence: 0.586, file: recordings/2025-10-12_22-32-29.wav
+2025-10-12 22:32:29,517 - INFO - Bark detected! Confidence: 0.586, Saved: 2025-10-12_22-32-29.wav
+2025-10-12 22:32:30,498 - INFO - Bark event logged: 2025-10-12T22:32:30.495650, confidence: 0.500, file: recordings/2025-10-12_22-32-30.wav
+2025-10-12 22:32:30,499 - INFO - Bark detected! Confidence: 0.500, Saved: 2025-10-12_22-32-30.wav
+2025-10-12 22:32:31,480 - INFO - Bark event logged: 2025-10-12T22:32:31.477357, confidence: 0.414, file: recordings/2025-10-12_22-32-31.wav
+2025-10-12 22:32:31,481 - INFO - Bark detected! Confidence: 0.414, Saved: 2025-10-12_22-32-31.wav
+2025-10-12 22:32:33,399 - INFO - Bark event logged: 2025-10-12T22:32:33.396197, confidence: 0.586, file: recordings/2025-10-12_22-32-33.wav
+2025-10-12 22:32:33,400 - INFO - Bark detected! Confidence: 0.586, Saved: 2025-10-12_22-32-33.wav
+2025-10-12 22:32:55,841 - INFO - Bark event logged: 2025-10-12T22:32:55.838719, confidence: 0.500, file: recordings/2025-10-12_22-32-55.wav
+2025-10-12 22:32:55,842 - INFO - Bark detected! Confidence: 0.500, Saved: 2025-10-12_22-32-55.wav
+2025-10-13 17:01:38,971 - INFO - Bark logger stopped by user
+2025-10-13 17:01:38,997 - INFO - Audio resources cleaned up
+2025-10-14 16:31:36,842 - ERROR - Failed to initialize audio stream: [Errno -9997] Invalid sample rate
+2025-10-14 16:31:39,266 - ERROR - Failed to initialize audio stream: [Errno -9997] Invalid sample rate
+2025-10-14 16:31:41,729 - ERROR - Failed to initialize audio stream: [Errno -9997] Invalid sample rate
+2025-10-14 16:31:43,971 - ERROR - Failed to initialize audio stream: [Errno -9997] Invalid sample rate
+2025-10-14 16:31:46,274 - ERROR - Failed to initialize audio stream: [Errno -9997] Invalid sample rate
+2025-10-14 16:32:09,756 - INFO - Audio stream initialized: 16000Hz, 1 channels
+2025-10-14 16:32:09,975 - INFO - Model loaded successfully: model/yamnet_float16.tflite
+2025-10-14 16:32:09,979 - INFO - Input details: [{'name': 'waveform_binary', 'index': 0, 'shape': array([15600]), 'shape_signature': array([15600]), 'dtype': <class 'numpy.float32'>, 'quantization': (0.0, 0), 'quantization_parameters': {'scales': array([], dtype=float32), 'zero_points': array([], dtype=int32), 'quantized_dimension': 0}, 'sparsity_parameters': {}}]
+2025-10-14 16:32:09,987 - INFO - Output details: [{'name': 'tower0/network/layer32/final_output', 'index': 120, 'shape': array([  1, 521]), 'shape_signature': array([  1, 521]), 'dtype': <class 'numpy.float32'>, 'quantization': (0.0, 0), 'quantization_parameters': {'scales': array([], dtype=float32), 'zero_points': array([], dtype=int32), 'quantized_dimension': 0}, 'sparsity_parameters': {}}]
+2025-10-14 16:32:09,989 - INFO - Bark logger started
+2025-10-14 16:32:41,864 - INFO - Bark event logged: 2025-10-14T16:32:41.856955, confidence: 0.414, file: recordings/2025-10-14_16-32-41.wav
+2025-10-14 16:32:41,866 - INFO - Bark detected! Confidence: 0.414, Saved: 2025-10-14_16-32-41.wav
+2025-10-14 16:32:48,685 - INFO - Bark event logged: 2025-10-14T16:32:48.682860, confidence: 0.414, file: recordings/2025-10-14_16-32-48.wav
+2025-10-14 16:32:48,686 - INFO - Bark detected! Confidence: 0.414, Saved: 2025-10-14_16-32-48.wav
+2025-10-14 16:32:51,270 - ERROR - Error capturing audio chunk: [Errno -9999] Unanticipated host error
+2025-10-14 16:32:51,542 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:32:51,781 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:32:52,000 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:32:52,219 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:32:52,465 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:32:52,701 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:32:52,925 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:32:53,141 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:32:53,363 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:32:53,580 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:32:53,799 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:32:54,016 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:32:54,234 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:32:54,462 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:32:54,680 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:32:54,895 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:32:55,111 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:32:55,327 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:32:55,543 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:32:55,759 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:32:55,975 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:32:56,191 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:32:56,407 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:32:56,623 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:32:56,839 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:32:57,054 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:32:57,270 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:32:57,486 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:32:57,702 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:32:57,918 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:32:58,133 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:32:58,349 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:32:58,565 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:32:58,781 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:32:58,997 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:32:59,212 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:32:59,428 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:32:59,644 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:32:59,860 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:33:00,075 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:33:00,292 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:33:00,508 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:33:00,724 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:33:00,940 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:33:01,156 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:33:01,373 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:33:01,589 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:33:01,805 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:33:02,020 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:33:02,236 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:33:02,453 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:33:02,669 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:33:02,885 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:33:03,101 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:33:03,316 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:33:03,532 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:33:03,748 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:33:03,963 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:33:04,179 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:33:04,395 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:33:04,611 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:33:04,826 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:33:05,042 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:33:05,258 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:33:05,473 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:33:05,689 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:33:05,905 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:33:06,121 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:33:06,336 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:33:06,553 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:33:06,769 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:33:06,985 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:33:07,201 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:33:07,417 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:33:07,634 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:33:07,850 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:33:08,066 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:33:08,282 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:33:08,499 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:33:08,715 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:33:08,931 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:33:09,147 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:33:09,363 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:33:09,579 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:33:09,795 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:33:10,037 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:33:10,255 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:33:10,471 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:33:10,688 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:33:10,904 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:33:11,120 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:33:11,336 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:33:11,552 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:33:11,769 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:33:11,985 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:33:12,201 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:33:12,417 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:33:12,633 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:33:12,850 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:33:13,066 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:33:13,282 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:33:13,505 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:33:13,722 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:33:13,938 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:33:14,154 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:33:14,371 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:33:14,590 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:33:14,807 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:33:15,024 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:33:15,244 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:33:15,483 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:33:15,729 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:33:15,949 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:33:16,183 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:33:16,403 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:33:16,624 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:33:16,867 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:33:17,082 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:33:17,298 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:33:17,513 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:33:17,730 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:33:17,972 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:33:18,239 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:33:18,486 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:33:18,701 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:33:18,917 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:33:19,033 - INFO - Bark logger stopped by user
+2025-10-14 16:33:23,302 - INFO - Audio stream initialized: 16000Hz, 1 channels
+2025-10-14 16:33:23,316 - INFO - Model loaded successfully: model/yamnet_float16.tflite
+2025-10-14 16:33:23,320 - INFO - Input details: [{'name': 'waveform_binary', 'index': 0, 'shape': array([15600]), 'shape_signature': array([15600]), 'dtype': <class 'numpy.float32'>, 'quantization': (0.0, 0), 'quantization_parameters': {'scales': array([], dtype=float32), 'zero_points': array([], dtype=int32), 'quantized_dimension': 0}, 'sparsity_parameters': {}}]
+2025-10-14 16:33:23,324 - INFO - Output details: [{'name': 'tower0/network/layer32/final_output', 'index': 120, 'shape': array([  1, 521]), 'shape_signature': array([  1, 521]), 'dtype': <class 'numpy.float32'>, 'quantization': (0.0, 0), 'quantization_parameters': {'scales': array([], dtype=float32), 'zero_points': array([], dtype=int32), 'quantized_dimension': 0}, 'sparsity_parameters': {}}]
+2025-10-14 16:33:23,326 - INFO - Bark logger started
+2025-10-14 16:34:12,967 - INFO - Bark logger stopped by user
+2025-10-14 16:34:12,990 - INFO - Audio resources cleaned up
+2025-10-14 16:34:29,283 - ERROR - Failed to initialize audio stream: [Errno -9996] Invalid input device (no default output device)
+2025-10-14 16:34:31,708 - ERROR - Failed to initialize audio stream: [Errno -9996] Invalid input device (no default output device)
+2025-10-14 16:34:33,983 - ERROR - Failed to initialize audio stream: [Errno -9996] Invalid input device (no default output device)
+2025-10-14 16:34:36,236 - ERROR - Failed to initialize audio stream: [Errno -9996] Invalid input device (no default output device)
+2025-10-14 16:34:38,507 - ERROR - Failed to initialize audio stream: [Errno -9996] Invalid input device (no default output device)
+2025-10-14 16:34:40,775 - ERROR - Failed to initialize audio stream: [Errno -9996] Invalid input device (no default output device)
+2025-10-14 16:35:24,241 - INFO - Audio stream initialized: 16000Hz, 1 channels
+2025-10-14 16:35:24,255 - INFO - Model loaded successfully: model/yamnet_float16.tflite
+2025-10-14 16:35:24,259 - INFO - Input details: [{'name': 'waveform_binary', 'index': 0, 'shape': array([15600]), 'shape_signature': array([15600]), 'dtype': <class 'numpy.float32'>, 'quantization': (0.0, 0), 'quantization_parameters': {'scales': array([], dtype=float32), 'zero_points': array([], dtype=int32), 'quantized_dimension': 0}, 'sparsity_parameters': {}}]
+2025-10-14 16:35:24,263 - INFO - Output details: [{'name': 'tower0/network/layer32/final_output', 'index': 120, 'shape': array([  1, 521]), 'shape_signature': array([  1, 521]), 'dtype': <class 'numpy.float32'>, 'quantization': (0.0, 0), 'quantization_parameters': {'scales': array([], dtype=float32), 'zero_points': array([], dtype=int32), 'quantized_dimension': 0}, 'sparsity_parameters': {}}]
+2025-10-14 16:35:24,265 - INFO - Bark logger started
+2025-10-14 16:35:59,335 - INFO - Bark logger stopped by user
+2025-10-14 16:35:59,356 - INFO - Audio resources cleaned up
+2025-10-14 16:36:40,958 - ERROR - Failed to initialize audio stream: [Errno -9997] Invalid sample rate
+2025-10-14 16:36:43,819 - ERROR - Failed to initialize audio stream: [Errno -9997] Invalid sample rate
+2025-10-14 16:36:46,244 - ERROR - Failed to initialize audio stream: [Errno -9997] Invalid sample rate
+2025-10-14 16:36:48,484 - ERROR - Failed to initialize audio stream: [Errno -9997] Invalid sample rate
+2025-10-14 16:36:50,775 - ERROR - Failed to initialize audio stream: [Errno -9993] Illegal combination of I/O devices
+2025-10-14 16:36:53,491 - ERROR - Failed to initialize audio stream: [Errno -9996] Invalid input device (no default output device)
+2025-10-14 16:36:56,062 - ERROR - Failed to initialize audio stream: [Errno -9997] Invalid sample rate
+2025-10-14 16:37:00,107 - ERROR - Failed to initialize audio stream: [Errno -9997] Invalid sample rate
+2025-10-14 16:37:02,500 - ERROR - Failed to initialize audio stream: [Errno -9997] Invalid sample rate
+2025-10-14 16:37:04,737 - ERROR - Failed to initialize audio stream: [Errno -9997] Invalid sample rate
+2025-10-14 16:38:21,597 - INFO - Audio stream initialized: 16000Hz, 1 channels
+2025-10-14 16:38:21,611 - INFO - Model loaded successfully: model/yamnet_float16.tflite
+2025-10-14 16:38:21,614 - INFO - Input details: [{'name': 'waveform_binary', 'index': 0, 'shape': array([15600]), 'shape_signature': array([15600]), 'dtype': <class 'numpy.float32'>, 'quantization': (0.0, 0), 'quantization_parameters': {'scales': array([], dtype=float32), 'zero_points': array([], dtype=int32), 'quantized_dimension': 0}, 'sparsity_parameters': {}}]
+2025-10-14 16:38:21,618 - INFO - Output details: [{'name': 'tower0/network/layer32/final_output', 'index': 120, 'shape': array([  1, 521]), 'shape_signature': array([  1, 521]), 'dtype': <class 'numpy.float32'>, 'quantization': (0.0, 0), 'quantization_parameters': {'scales': array([], dtype=float32), 'zero_points': array([], dtype=int32), 'quantized_dimension': 0}, 'sparsity_parameters': {}}]
+2025-10-14 16:38:21,620 - INFO - Bark logger started
+2025-10-14 16:38:23,559 - INFO - Bark logger stopped by user
+2025-10-14 16:38:23,580 - INFO - Audio resources cleaned up
+2025-10-14 16:48:03,511 - INFO - Audio stream initialized: 16000Hz, 1 channels
+2025-10-14 16:48:03,524 - INFO - Model loaded successfully: model/yamnet_float16.tflite
+2025-10-14 16:48:03,528 - INFO - Input details: [{'name': 'waveform_binary', 'index': 0, 'shape': array([15600]), 'shape_signature': array([15600]), 'dtype': <class 'numpy.float32'>, 'quantization': (0.0, 0), 'quantization_parameters': {'scales': array([], dtype=float32), 'zero_points': array([], dtype=int32), 'quantized_dimension': 0}, 'sparsity_parameters': {}}]
+2025-10-14 16:48:03,532 - INFO - Output details: [{'name': 'tower0/network/layer32/final_output', 'index': 120, 'shape': array([  1, 521]), 'shape_signature': array([  1, 521]), 'dtype': <class 'numpy.float32'>, 'quantization': (0.0, 0), 'quantization_parameters': {'scales': array([], dtype=float32), 'zero_points': array([], dtype=int32), 'quantized_dimension': 0}, 'sparsity_parameters': {}}]
+2025-10-14 16:48:03,533 - INFO - Bark logger started
+2025-10-14 16:49:04,867 - INFO - Audio stream initialized: 16000Hz, 1 channels
+2025-10-14 16:49:05,093 - INFO - Model loaded successfully: model/yamnet_float16.tflite
+2025-10-14 16:49:05,097 - INFO - Input details: [{'name': 'waveform_binary', 'index': 0, 'shape': array([15600]), 'shape_signature': array([15600]), 'dtype': <class 'numpy.float32'>, 'quantization': (0.0, 0), 'quantization_parameters': {'scales': array([], dtype=float32), 'zero_points': array([], dtype=int32), 'quantized_dimension': 0}, 'sparsity_parameters': {}}]
+2025-10-14 16:49:05,105 - INFO - Output details: [{'name': 'tower0/network/layer32/final_output', 'index': 120, 'shape': array([  1, 521]), 'shape_signature': array([  1, 521]), 'dtype': <class 'numpy.float32'>, 'quantization': (0.0, 0), 'quantization_parameters': {'scales': array([], dtype=float32), 'zero_points': array([], dtype=int32), 'quantized_dimension': 0}, 'sparsity_parameters': {}}]
+2025-10-14 16:49:05,107 - INFO - Bark logger started
+2025-10-14 16:49:14,765 - INFO - Bark event logged: 2025-10-14T16:49:14.750535, confidence: 0.500, file: recordings/2025-10-14_16-49-14.wav
+2025-10-14 16:49:14,767 - INFO - Bark detected! Confidence: 0.500, Saved: 2025-10-14_16-49-14.wav
+2025-10-14 16:49:21,887 - ERROR - Error capturing audio chunk: [Errno -9999] Unanticipated host error
+2025-10-14 16:49:36,565 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:49:36,873 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:49:37,100 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:49:37,335 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:49:37,590 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:49:37,851 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:49:38,075 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:49:38,304 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:49:38,521 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:49:38,740 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:49:38,965 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:49:39,193 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:49:39,418 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:49:39,643 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:49:39,867 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:49:40,166 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:49:40,390 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:49:40,618 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:49:40,839 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:49:41,065 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:49:41,285 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:49:41,502 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:49:41,718 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:49:41,937 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:49:42,155 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:49:42,375 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:49:42,601 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:49:42,827 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:49:43,049 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:49:43,286 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:49:43,503 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:49:43,719 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:49:43,936 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:49:44,155 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:49:44,373 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:49:44,589 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:49:44,805 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:49:45,021 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:49:45,238 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:49:45,457 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:49:45,673 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:49:45,889 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:49:46,106 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:49:46,323 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:49:46,540 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:49:46,756 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:49:46,972 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:49:47,188 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:49:47,404 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:49:47,622 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:49:47,840 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:49:48,063 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:49:48,280 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:49:48,497 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:49:48,713 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:49:48,929 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:49:49,146 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:49:49,363 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:49:49,579 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:49:49,796 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:49:50,013 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:49:50,230 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:49:50,446 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:49:50,663 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:49:50,879 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:49:51,095 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:49:51,321 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:49:51,538 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:49:51,755 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:49:51,971 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:49:52,188 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:49:52,404 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:49:52,622 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:49:52,838 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:49:53,061 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:49:53,278 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:49:53,494 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:49:53,711 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:49:53,927 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:49:54,144 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:49:54,360 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:49:54,576 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:49:54,792 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:49:55,008 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:49:55,224 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:49:55,440 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:49:55,656 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:49:55,873 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:49:56,088 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:49:56,305 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:49:56,521 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:49:56,737 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:49:57,004 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:49:57,220 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:49:57,438 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:49:57,654 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:49:57,871 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:49:58,086 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:49:58,302 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:49:58,524 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:49:58,742 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:49:58,960 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:49:59,178 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:49:59,396 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:49:59,617 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:49:59,833 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:50:00,048 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:50:00,263 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:50:00,478 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:50:00,693 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:50:00,908 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:50:01,124 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:50:01,339 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:50:01,554 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:50:01,769 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:50:01,990 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:50:02,208 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:50:02,423 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:50:02,639 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:50:02,854 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:50:03,069 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:50:03,285 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:50:03,500 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:50:03,715 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:50:03,930 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:50:04,149 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:50:04,366 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:50:04,580 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:50:04,795 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:50:05,010 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:50:05,225 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:50:05,440 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:50:05,656 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:50:05,871 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:50:06,086 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:50:06,300 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:50:06,515 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:50:06,732 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:50:06,947 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:50:07,163 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:50:07,378 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:50:07,592 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:50:07,808 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:50:08,023 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:50:08,238 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:50:08,456 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:50:08,671 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:50:08,886 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:50:09,102 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:50:09,317 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:50:09,532 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:50:09,747 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:50:09,962 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:50:10,178 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:50:10,393 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:50:10,609 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:50:10,824 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:50:11,040 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:50:11,256 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:50:11,472 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:50:11,687 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:50:11,904 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:50:12,119 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:50:12,335 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:50:12,550 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:50:12,766 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:50:12,983 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:50:13,199 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:50:13,415 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:50:13,632 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:50:13,849 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:50:14,071 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:50:14,287 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:50:14,502 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:50:14,717 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:50:14,932 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:50:15,147 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:50:15,361 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:50:15,580 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:50:15,796 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:50:16,013 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:50:16,229 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:50:16,446 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:50:16,662 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:50:16,879 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:50:17,098 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:50:17,314 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:50:17,531 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:50:17,748 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:50:17,964 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:50:18,182 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:50:18,399 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:50:18,616 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:50:18,832 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:50:19,050 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:50:19,268 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:50:19,484 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:50:19,701 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:50:19,918 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:50:20,138 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:50:20,355 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:50:20,571 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:50:20,788 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:50:21,005 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:50:21,222 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:50:21,438 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:50:21,655 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:50:21,872 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:50:22,089 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:50:22,307 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:50:22,524 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:50:22,741 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:50:22,958 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:50:23,175 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:50:23,393 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:50:23,610 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:50:23,826 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:50:24,043 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:50:24,260 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:50:24,481 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:50:24,698 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:50:24,915 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:50:25,132 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:50:25,353 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:50:25,569 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:50:25,786 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:50:26,003 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:50:26,221 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:50:26,438 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:50:26,654 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:50:26,871 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:50:27,088 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:50:27,305 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:50:27,523 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:50:27,740 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:50:27,956 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:50:28,177 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:50:28,406 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:50:28,873 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:50:29,095 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:50:29,323 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:50:29,550 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:50:29,783 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:50:29,999 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:50:50,243 - INFO - Audio stream initialized: 16000Hz, 1 channels
+2025-10-14 16:50:50,511 - INFO - Model loaded successfully: model/yamnet_float16.tflite
+2025-10-14 16:50:50,514 - INFO - Input details: [{'name': 'waveform_binary', 'index': 0, 'shape': array([15600]), 'shape_signature': array([15600]), 'dtype': <class 'numpy.float32'>, 'quantization': (0.0, 0), 'quantization_parameters': {'scales': array([], dtype=float32), 'zero_points': array([], dtype=int32), 'quantized_dimension': 0}, 'sparsity_parameters': {}}]
+2025-10-14 16:50:50,521 - INFO - Output details: [{'name': 'tower0/network/layer32/final_output', 'index': 120, 'shape': array([  1, 521]), 'shape_signature': array([  1, 521]), 'dtype': <class 'numpy.float32'>, 'quantization': (0.0, 0), 'quantization_parameters': {'scales': array([], dtype=float32), 'zero_points': array([], dtype=int32), 'quantized_dimension': 0}, 'sparsity_parameters': {}}]
+2025-10-14 16:50:50,523 - INFO - Bark logger started
+2025-10-14 16:51:45,670 - INFO - Bark event logged: 2025-10-14T16:51:45.662575, confidence: 0.500, file: recordings/2025-10-14_16-51-45.wav
+2025-10-14 16:51:45,672 - INFO - Bark detected! Confidence: 0.500, Saved: 2025-10-14_16-51-45.wav
+2025-10-14 16:51:46,646 - INFO - Bark event logged: 2025-10-14T16:51:46.643790, confidence: 0.668, file: recordings/2025-10-14_16-51-46.wav
+2025-10-14 16:51:46,647 - INFO - Bark detected! Confidence: 0.668, Saved: 2025-10-14_16-51-46.wav
+2025-10-14 16:53:19,072 - INFO - Audio stream initialized: 16000Hz, 1 channels
+2025-10-14 16:53:19,480 - INFO - Model loaded successfully: model/yamnet_float16.tflite
+2025-10-14 16:53:19,484 - INFO - Input details: [{'name': 'waveform_binary', 'index': 0, 'shape': array([15600]), 'shape_signature': array([15600]), 'dtype': <class 'numpy.float32'>, 'quantization': (0.0, 0), 'quantization_parameters': {'scales': array([], dtype=float32), 'zero_points': array([], dtype=int32), 'quantized_dimension': 0}, 'sparsity_parameters': {}}]
+2025-10-14 16:53:19,492 - INFO - Output details: [{'name': 'tower0/network/layer32/final_output', 'index': 120, 'shape': array([  1, 521]), 'shape_signature': array([  1, 521]), 'dtype': <class 'numpy.float32'>, 'quantization': (0.0, 0), 'quantization_parameters': {'scales': array([], dtype=float32), 'zero_points': array([], dtype=int32), 'quantized_dimension': 0}, 'sparsity_parameters': {}}]
+2025-10-14 16:53:19,494 - INFO - Bark logger started
+2025-10-14 16:53:21,660 - ERROR - Error capturing audio chunk: [Errno -9999] Unanticipated host error
+2025-10-14 16:53:21,954 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:53:22,303 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:53:22,542 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:53:22,774 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:53:23,032 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:53:23,377 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:53:23,619 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:53:23,850 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:53:24,118 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:53:24,361 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:53:24,594 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:53:24,844 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:53:25,076 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:53:25,365 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:53:25,587 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:53:25,830 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:53:26,076 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:53:26,298 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:53:26,520 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:53:26,741 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:53:26,960 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:53:27,184 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:53:27,416 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:53:27,634 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:53:27,862 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:53:28,082 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:53:28,305 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:53:28,525 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:53:28,749 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:53:28,968 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:53:29,188 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:53:29,411 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:53:29,630 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:53:29,849 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:53:30,076 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:53:30,295 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:53:30,517 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:53:30,736 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:53:30,963 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:53:31,185 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:53:31,401 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:53:31,628 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:53:31,847 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:53:32,063 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:53:32,283 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:53:32,503 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:53:32,732 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:53:32,951 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:53:33,168 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:53:33,391 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:53:33,613 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:53:33,845 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:53:34,083 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:53:34,323 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:53:34,545 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+2025-10-14 16:53:34,774 - ERROR - Error capturing audio chunk: [Errno -9988] Stream closed
+                                                                                                                                                                                                                                                                                 2025-10-14 16:53:19,633 - INFO - Audio stream initialized: 16000Hz, 1 channels
+2025-10-14 16:53:19,881 - INFO - Model loaded successfully: model/yamnet_float16.tflite
+2025-10-14 16:53:19,884 - INFO - Input details: [{'name': 'waveform_binary', 'index': 0, 'shape': array([15600]), 'shape_signature': array([15600]), 'dtype': <class 'numpy.float32'>, 'quantization': (0.0, 0), 'quantization_parameters': {'scales': array([], dtype=float32), 'zero_points': array([], dtype=int32), 'quantized_dimension': 0}, 'sparsity_parameters': {}}]
+2025-10-14 16:53:19,892 - INFO - Output details: [{'name': 'tower0/network/layer32/final_output', 'index': 120, 'shape': array([  1, 521]), 'shape_signature': array([  1, 521]), 'dtype': <class 'numpy.float32'>, 'quantization': (0.0, 0), 'quantization_parameters': {'scales': array([], dtype=float32), 'zero_points': array([], dtype=int32), 'quantized_dimension': 0}, 'sparsity_parameters': {}}]
+2025-10-14 16:53:19,895 - INFO - Bark logger started
+2025-10-14 16:53:19,227 - INFO - Audio stream initialized: 16000Hz, 1 channels
+2025-10-14 16:53:19,493 - INFO - Model loaded successfully: model/yamnet_float16.tflite
+2025-10-14 16:53:19,497 - INFO - Input details: [{'name': 'waveform_binary', 'index': 0, 'shape': array([15600]), 'shape_signature': array([15600]), 'dtype': <class 'numpy.float32'>, 'quantization': (0.0, 0), 'quantization_parameters': {'scales': array([], dtype=float32), 'zero_points': array([], dtype=int32), 'quantized_dimension': 0}, 'sparsity_parameters': {}}]
+2025-10-14 16:53:19,504 - INFO - Output details: [{'name': 'tower0/network/layer32/final_output', 'index': 120, 'shape': array([  1, 521]), 'shape_signature': array([  1, 521]), 'dtype': <class 'numpy.float32'>, 'quantization': (0.0, 0), 'quantization_parameters': {'scales': array([], dtype=float32), 'zero_points': array([], dtype=int32), 'quantized_dimension': 0}, 'sparsity_parameters': {}}]
+2025-10-14 16:53:19,506 - INFO - Bark logger started
+2025-10-15 13:32:57,393 - INFO - Audio stream initialized: 16000Hz, 1 channels
+2025-10-15 13:32:57,656 - INFO - Model loaded successfully: model/yamnet_float16.tflite
+2025-10-15 13:32:57,660 - INFO - Input details: [{'name': 'waveform_binary', 'index': 0, 'shape': array([15600]), 'shape_signature': array([15600]), 'dtype': <class 'numpy.float32'>, 'quantization': (0.0, 0), 'quantization_parameters': {'scales': array([], dtype=float32), 'zero_points': array([], dtype=int32), 'quantized_dimension': 0}, 'sparsity_parameters': {}}]
+2025-10-15 13:32:57,667 - INFO - Output details: [{'name': 'tower0/network/layer32/final_output', 'index': 120, 'shape': array([  1, 521]), 'shape_signature': array([  1, 521]), 'dtype': <class 'numpy.float32'>, 'quantization': (0.0, 0), 'quantization_parameters': {'scales': array([], dtype=float32), 'zero_points': array([], dtype=int32), 'quantized_dimension': 0}, 'sparsity_parameters': {}}]
+2025-10-15 13:32:57,669 - INFO - Bark logger started
+2025-10-15 13:36:48,097 - INFO - Audio stream initialized: 16000Hz, 1 channels
+2025-10-15 13:36:48,118 - INFO - Model loaded successfully: model/yamnet_float16.tflite
+2025-10-15 13:36:48,122 - INFO - Input details: [{'name': 'waveform_binary', 'index': 0, 'shape': array([15600]), 'shape_signature': array([15600]), 'dtype': <class 'numpy.float32'>, 'quantization': (0.0, 0), 'quantization_parameters': {'scales': array([], dtype=float32), 'zero_points': array([], dtype=int32), 'quantized_dimension': 0}, 'sparsity_parameters': {}}]
+2025-10-15 13:36:48,127 - INFO - Output details: [{'name': 'tower0/network/layer32/final_output', 'index': 120, 'shape': array([  1, 521]), 'shape_signature': array([  1, 521]), 'dtype': <class 'numpy.float32'>, 'quantization': (0.0, 0), 'quantization_parameters': {'scales': array([], dtype=float32), 'zero_points': array([], dtype=int32), 'quantized_dimension': 0}, 'sparsity_parameters': {}}]
+2025-10-15 13:36:48,131 - INFO - Bark logger started
+2025-10-15 13:38:32,479 - INFO - Audio stream initialized: 16000Hz, 1 channels
+2025-10-15 13:38:32,494 - INFO - Model loaded successfully: model/yamnet_float16.tflite
+2025-10-15 13:38:32,498 - INFO - Input details: [{'name': 'waveform_binary', 'index': 0, 'shape': array([15600]), 'shape_signature': array([15600]), 'dtype': <class 'numpy.float32'>, 'quantization': (0.0, 0), 'quantization_parameters': {'scales': array([], dtype=float32), 'zero_points': array([], dtype=int32), 'quantized_dimension': 0}, 'sparsity_parameters': {}}]
+2025-10-15 13:38:32,504 - INFO - Output details: [{'name': 'tower0/network/layer32/final_output', 'index': 120, 'shape': array([  1, 521]), 'shape_signature': array([  1, 521]), 'dtype': <class 'numpy.float32'>, 'quantization': (0.0, 0), 'quantization_parameters': {'scales': array([], dtype=float32), 'zero_points': array([], dtype=int32), 'quantized_dimension': 0}, 'sparsity_parameters': {}}]
+2025-10-15 13:38:32,509 - INFO - Bark logger started
+2025-10-15 13:44:57,868 - INFO - Audio stream initialized: 16000Hz, 1 channels
+2025-10-15 13:44:57,885 - INFO - Model loaded successfully: model/yamnet_float16.tflite
+2025-10-15 13:44:57,890 - INFO - Input details: [{'name': 'waveform_binary', 'index': 0, 'shape': array([15600]), 'shape_signature': array([15600]), 'dtype': <class 'numpy.float32'>, 'quantization': (0.0, 0), 'quantization_parameters': {'scales': array([], dtype=float32), 'zero_points': array([], dtype=int32), 'quantized_dimension': 0}, 'sparsity_parameters': {}}]
+2025-10-15 13:44:57,894 - INFO - Output details: [{'name': 'tower0/network/layer32/final_output', 'index': 120, 'shape': array([  1, 521]), 'shape_signature': array([  1, 521]), 'dtype': <class 'numpy.float32'>, 'quantization': (0.0, 0), 'quantization_parameters': {'scales': array([], dtype=float32), 'zero_points': array([], dtype=int32), 'quantized_dimension': 0}, 'sparsity_parameters': {}}]
+2025-10-15 13:44:57,896 - INFO - Bark logger started
+2025-10-15 13:50:39,453 - INFO - Audio stream initialized: 16000Hz, 1 channels
+2025-10-15 13:50:39,728 - INFO - Model loaded successfully: model/yamnet_float16.tflite
+2025-10-15 13:50:39,731 - INFO - Input details: [{'name': 'waveform_binary', 'index': 0, 'shape': array([15600]), 'shape_signature': array([15600]), 'dtype': <class 'numpy.float32'>, 'quantization': (0.0, 0), 'quantization_parameters': {'scales': array([], dtype=float32), 'zero_points': array([], dtype=int32), 'quantized_dimension': 0}, 'sparsity_parameters': {}}]
+2025-10-15 13:50:39,738 - INFO - Output details: [{'name': 'tower0/network/layer32/final_output', 'index': 120, 'shape': array([  1, 521]), 'shape_signature': array([  1, 521]), 'dtype': <class 'numpy.float32'>, 'quantization': (0.0, 0), 'quantization_parameters': {'scales': array([], dtype=float32), 'zero_points': array([], dtype=int32), 'quantized_dimension': 0}, 'sparsity_parameters': {}}]
+2025-10-15 13:50:39,740 - INFO - Bark logger started
+2025-10-15 14:06:20,503 - INFO - Audio stream initialized: 16000Hz, 1 channels
+2025-10-15 14:06:20,714 - INFO - Model loaded successfully: model/yamnet_float16.tflite
+2025-10-15 14:06:20,717 - INFO - Input details: [{'name': 'waveform_binary', 'index': 0, 'shape': array([15600]), 'shape_signature': array([15600]), 'dtype': <class 'numpy.float32'>, 'quantization': (0.0, 0), 'quantization_parameters': {'scales': array([], dtype=float32), 'zero_points': array([], dtype=int32), 'quantized_dimension': 0}, 'sparsity_parameters': {}}]
+2025-10-15 14:06:20,725 - INFO - Output details: [{'name': 'tower0/network/layer32/final_output', 'index': 120, 'shape': array([  1, 521]), 'shape_signature': array([  1, 521]), 'dtype': <class 'numpy.float32'>, 'quantization': (0.0, 0), 'quantization_parameters': {'scales': array([], dtype=float32), 'zero_points': array([], dtype=int32), 'quantized_dimension': 0}, 'sparsity_parameters': {}}]
+2025-10-15 14:06:20,727 - INFO - Bark logger started
+2025-10-15 15:00:36,468 - INFO - Audio stream initialized: 16000Hz, 1 channels
+2025-10-15 15:00:36,684 - INFO - Model loaded successfully: model/yamnet_float16.tflite
+2025-10-15 15:00:36,687 - INFO - Input details: [{'name': 'waveform_binary', 'index': 0, 'shape': array([15600]), 'shape_signature': array([15600]), 'dtype': <class 'numpy.float32'>, 'quantization': (0.0, 0), 'quantization_parameters': {'scales': array([], dtype=float32), 'zero_points': array([], dtype=int32), 'quantized_dimension': 0}, 'sparsity_parameters': {}}]
+2025-10-15 15:00:36,690 - INFO - Output details: [{'name': 'tower0/network/layer32/final_output', 'index': 120, 'shape': array([  1, 521]), 'shape_signature': array([  1, 521]), 'dtype': <class 'numpy.float32'>, 'quantization': (0.0, 0), 'quantization_parameters': {'scales': array([], dtype=float32), 'zero_points': array([], dtype=int32), 'quantized_dimension': 0}, 'sparsity_parameters': {}}]
+2025-10-15 15:00:36,692 - INFO - Bark logger started
+2025-10-15 15:00:37,443 - ERROR - Error during inference: name 'highpass_filter' is not defined
+2025-10-15 15:00:38,427 - ERROR - Error during inference: name 'highpass_filter' is not defined
+2025-10-15 15:00:39,408 - ERROR - Error during inference: name 'highpass_filter' is not defined
+2025-10-15 15:00:40,388 - ERROR - Error during inference: name 'highpass_filter' is not defined
+2025-10-15 15:00:41,369 - ERROR - Error during inference: name 'highpass_filter' is not defined
+2025-10-15 15:00:42,350 - ERROR - Error during inference: name 'highpass_filter' is not defined
+2025-10-15 15:00:43,331 - ERROR - Error during inference: name 'highpass_filter' is not defined
+2025-10-15 15:00:44,270 - ERROR - Error during inference: name 'highpass_filter' is not defined
+2025-10-15 15:00:45,251 - ERROR - Error during inference: name 'highpass_filter' is not defined
+2025-10-15 15:00:46,232 - ERROR - Error during inference: name 'highpass_filter' is not defined
+2025-10-15 15:00:47,213 - ERROR - Error during inference: name 'highpass_filter' is not defined
+2025-10-15 15:01:02,928 - ERROR - Error during inference: name 'highpass_filter' is not defined
+2025-10-15 15:01:03,910 - ERROR - Error during inference: name 'highpass_filter' is not defined
+2025-10-15 15:01:04,848 - ERROR - Error during inference: name 'highpass_filter' is not defined
+2025-10-15 15:01:05,830 - ERROR - Error during inference: name 'highpass_filter' is not defined
+2025-10-15 15:01:06,812 - ERROR - Error during inference: name 'highpass_filter' is not defined
+2025-10-15 15:01:07,792 - ERROR - Error during inference: name 'highpass_filter' is not defined
+2025-10-15 15:01:08,774 - ERROR - Error during inference: name 'highpass_filter' is not defined
+2025-10-15 15:01:09,755 - ERROR - Error during inference: name 'highpass_filter' is not defined
+2025-10-15 15:01:10,736 - ERROR - Error during inference: name 'highpass_filter' is not defined
+2025-10-15 15:01:11,675 - ERROR - Error during inference: name 'highpass_filter' is not defined
+2025-10-15 15:01:12,656 - ERROR - Error during inference: name 'highpass_filter' is not defined
+2025-10-15 15:01:13,638 - ERROR - Error during inference: name 'highpass_filter' is not defined
+2025-10-15 15:01:14,619 - ERROR - Error during inference: name 'highpass_filter' is not defined
+2025-10-15 15:01:15,601 - ERROR - Error during inference: name 'highpass_filter' is not defined
+2025-10-15 15:01:16,582 - ERROR - Error during inference: name 'highpass_filter' is not defined
+2025-10-15 15:01:17,566 - ERROR - Error during inference: name 'highpass_filter' is not defined
+2025-10-15 15:01:18,502 - ERROR - Error during inference: name 'highpass_filter' is not defined
+2025-10-15 15:01:19,484 - ERROR - Error during inference: name 'highpass_filter' is not defined
+2025-10-15 15:01:20,465 - ERROR - Error during inference: name 'highpass_filter' is not defined
+2025-10-15 15:01:21,446 - ERROR - Error during inference: name 'highpass_filter' is not defined
+2025-10-15 15:01:22,427 - ERROR - Error during inference: name 'highpass_filter' is not defined
+2025-10-15 15:01:23,409 - ERROR - Error during inference: name 'highpass_filter' is not defined
+2025-10-15 15:01:24,347 - ERROR - Error during inference: name 'highpass_filter' is not defined
+2025-10-15 15:01:25,328 - ERROR - Error during inference: name 'highpass_filter' is not defined
+2025-10-15 15:01:26,310 - ERROR - Error during inference: name 'highpass_filter' is not defined
+2025-10-15 15:01:27,291 - ERROR - Error during inference: name 'highpass_filter' is not defined
+2025-10-15 15:01:28,274 - ERROR - Error during inference: name 'highpass_filter' is not defined
+2025-10-15 15:01:29,254 - ERROR - Error during inference: name 'highpass_filter' is not defined
+2025-10-15 15:01:30,238 - ERROR - Error during inference: name 'highpass_filter' is not defined
+2025-10-15 15:01:31,176 - ERROR - Error during inference: name 'highpass_filter' is not defined
+2025-10-15 15:01:32,155 - ERROR - Error during inference: name 'highpass_filter' is not defined
+2025-10-15 15:01:33,142 - ERROR - Error during inference: name 'highpass_filter' is not defined
+2025-10-15 15:01:34,118 - ERROR - Error during inference: name 'highpass_filter' is not defined
+2025-10-15 15:01:35,100 - ERROR - Error during inference: name 'highpass_filter' is not defined
+2025-10-15 15:01:36,091 - ERROR - Error during inference: name 'highpass_filter' is not defined
+2025-10-15 15:01:37,065 - ERROR - Error during inference: name 'highpass_filter' is not defined
+2025-10-15 15:01:38,002 - ERROR - Error during inference: name 'highpass_filter' is not defined
+2025-10-15 15:01:38,991 - ERROR - Error during inference: name 'highpass_filter' is not defined
+2025-10-15 15:01:39,964 - ERROR - Error during inference: name 'highpass_filter' is not defined
+2025-10-15 15:01:40,945 - ERROR - Error during inference: name 'highpass_filter' is not defined
+2025-10-15 15:01:41,931 - ERROR - Error during inference: name 'highpass_filter' is not defined
+2025-10-15 15:01:42,909 - ERROR - Error during inference: name 'highpass_filter' is not defined
+2025-10-15 15:01:43,890 - ERROR - Error during inference: name 'highpass_filter' is not defined
+2025-10-15 15:01:44,829 - ERROR - Error during inference: name 'highpass_filter' is not defined
+2025-10-15 15:01:45,812 - ERROR - Error during inference: name 'highpass_filter' is not defined
+2025-10-15 15:01:46,791 - ERROR - Error during inference: name 'highpass_filter' is not defined
+2025-10-15 15:01:47,773 - ERROR - Error during inference: name 'highpass_filter' is not defined
+2025-10-15 15:01:48,754 - ERROR - Error during inference: name 'highpass_filter' is not defined
+2025-10-15 15:01:49,735 - ERROR - Error during inference: name 'highpass_filter' is not defined
+2025-10-15 15:01:50,674 - ERROR - Error during inference: name 'highpass_filter' is not defined
+2025-10-15 15:01:51,655 - ERROR - Error during inference: name 'highpass_filter' is not defined
+2025-10-15 15:01:52,637 - ERROR - Error during inference: name 'highpass_filter' is not defined
+2025-10-15 15:01:53,618 - ERROR - Error during inference: name 'highpass_filter' is not defined
+2025-10-15 15:01:54,599 - ERROR - Error during inference: name 'highpass_filter' is not defined
+2025-10-15 15:01:55,581 - ERROR - Error during inference: name 'highpass_filter' is not defined
+2025-10-15 15:01:56,562 - ERROR - Error during inference: name 'highpass_filter' is not defined
+2025-10-15 15:01:57,501 - ERROR - Error during inference: name 'highpass_filter' is not defined
+2025-10-15 15:01:58,482 - ERROR - Error during inference: name 'highpass_filter' is not defined
+2025-10-15 15:02:11,238 - INFO - Audio stream initialized: 16000Hz, 1 channels
+2025-10-15 15:02:11,254 - INFO - Model loaded successfully: model/yamnet_float16.tflite
+2025-10-15 15:02:11,258 - INFO - Input details: [{'name': 'waveform_binary', 'index': 0, 'shape': array([15600]), 'shape_signature': array([15600]), 'dtype': <class 'numpy.float32'>, 'quantization': (0.0, 0), 'quantization_parameters': {'scales': array([], dtype=float32), 'zero_points': array([], dtype=int32), 'quantized_dimension': 0}, 'sparsity_parameters': {}}]
+2025-10-15 15:02:11,261 - INFO - Output details: [{'name': 'tower0/network/layer32/final_output', 'index': 120, 'shape': array([  1, 521]), 'shape_signature': array([  1, 521]), 'dtype': <class 'numpy.float32'>, 'quantization': (0.0, 0), 'quantization_parameters': {'scales': array([], dtype=float32), 'zero_points': array([], dtype=int32), 'quantized_dimension': 0}, 'sparsity_parameters': {}}]
+2025-10-15 15:02:11,264 - INFO - Bark logger started
+2025-10-15 15:03:00,753 - INFO - Audio stream initialized: 16000Hz, 1 channels
+2025-10-15 15:03:00,767 - INFO - Model loaded successfully: model/yamnet_float16.tflite
+2025-10-15 15:03:00,771 - INFO - Input details: [{'name': 'waveform_binary', 'index': 0, 'shape': array([15600]), 'shape_signature': array([15600]), 'dtype': <class 'numpy.float32'>, 'quantization': (0.0, 0), 'quantization_parameters': {'scales': array([], dtype=float32), 'zero_points': array([], dtype=int32), 'quantized_dimension': 0}, 'sparsity_parameters': {}}]
+2025-10-15 15:03:00,774 - INFO - Output details: [{'name': 'tower0/network/layer32/final_output', 'index': 120, 'shape': array([  1, 521]), 'shape_signature': array([  1, 521]), 'dtype': <class 'numpy.float32'>, 'quantization': (0.0, 0), 'quantization_parameters': {'scales': array([], dtype=float32), 'zero_points': array([], dtype=int32), 'quantized_dimension': 0}, 'sparsity_parameters': {}}]
+2025-10-15 15:03:00,776 - INFO - Bark logger started
+2025-10-15 15:06:14,195 - INFO - Audio stream initialized: 16000Hz, 1 channels
+2025-10-15 15:06:14,409 - INFO - Model loaded successfully: model/yamnet_float16.tflite
+2025-10-15 15:06:14,412 - INFO - Input details: [{'name': 'waveform_binary', 'index': 0, 'shape': array([15600]), 'shape_signature': array([15600]), 'dtype': <class 'numpy.float32'>, 'quantization': (0.0, 0), 'quantization_parameters': {'scales': array([], dtype=float32), 'zero_points': array([], dtype=int32), 'quantized_dimension': 0}, 'sparsity_parameters': {}}]
+2025-10-15 15:06:14,416 - INFO - Output details: [{'name': 'tower0/network/layer32/final_output', 'index': 120, 'shape': array([  1, 521]), 'shape_signature': array([  1, 521]), 'dtype': <class 'numpy.float32'>, 'quantization': (0.0, 0), 'quantization_parameters': {'scales': array([], dtype=float32), 'zero_points': array([], dtype=int32), 'quantized_dimension': 0}, 'sparsity_parameters': {}}]
+2025-10-15 15:06:14,418 - INFO - Bark logger started
+2025-10-15 15:10:22,170 - INFO - Bark event logged: 2025-10-15T15:10:22.163817, confidence: 0.414, file: recordings/2025-10-15_15-10-22.wav
+2025-10-15 15:10:22,171 - INFO - Bark detected! Confidence: 0.414, Saved: 2025-10-15_15-10-22.wav
+2025-10-15 15:10:26,050 - INFO - Bark event logged: 2025-10-15T15:10:26.047015, confidence: 0.414, file: recordings/2025-10-15_15-10-26.wav
+2025-10-15 15:10:26,051 - INFO - Bark detected! Confidence: 0.414, Saved: 2025-10-15_15-10-26.wav
+2025-10-15 15:10:27,030 - INFO - Bark event logged: 2025-10-15T15:10:27.027782, confidence: 0.586, file: recordings/2025-10-15_15-10-27.wav
+2025-10-15 15:10:27,031 - INFO - Bark detected! Confidence: 0.586, Saved: 2025-10-15_15-10-27.wav
+2025-10-15 15:10:28,013 - INFO - Bark event logged: 2025-10-15T15:10:28.010012, confidence: 0.414, file: recordings/2025-10-15_15-10-28.wav
+2025-10-15 15:10:28,014 - INFO - Bark detected! Confidence: 0.414, Saved: 2025-10-15_15-10-28.wav
+2025-10-15 15:10:31,937 - INFO - Bark event logged: 2025-10-15T15:10:31.933894, confidence: 0.586, file: recordings/2025-10-15_15-10-31.wav
+2025-10-15 15:10:31,937 - INFO - Bark detected! Confidence: 0.586, Saved: 2025-10-15_15-10-31.wav
+2025-10-15 15:10:35,819 - INFO - Bark event logged: 2025-10-15T15:10:35.816434, confidence: 0.500, file: recordings/2025-10-15_15-10-35.wav
+2025-10-15 15:10:35,820 - INFO - Bark detected! Confidence: 0.500, Saved: 2025-10-15_15-10-35.wav
+2025-10-15 15:10:39,702 - INFO - Bark event logged: 2025-10-15T15:10:39.698963, confidence: 0.586, file: recordings/2025-10-15_15-10-39.wav
+2025-10-15 15:10:39,702 - INFO - Bark detected! Confidence: 0.586, Saved: 2025-10-15_15-10-39.wav
+2025-10-15 15:10:49,475 - INFO - Bark event logged: 2025-10-15T15:10:49.472453, confidence: 0.586, file: recordings/2025-10-15_15-10-49.wav
+2025-10-15 15:10:49,478 - INFO - Bark detected! Confidence: 0.586, Saved: 2025-10-15_15-10-49.wav
+2025-10-15 15:10:50,455 - INFO - Bark event logged: 2025-10-15T15:10:50.452123, confidence: 0.586, file: recordings/2025-10-15_15-10-50.wav
+2025-10-15 15:10:50,456 - INFO - Bark detected! Confidence: 0.586, Saved: 2025-10-15_15-10-50.wav
+2025-10-15 15:11:19,684 - INFO - Bark event logged: 2025-10-15T15:11:19.681230, confidence: 0.414, file: recordings/2025-10-15_15-11-19.wav
+2025-10-15 15:11:19,685 - INFO - Bark detected! Confidence: 0.414, Saved: 2025-10-15_15-11-19.wav
+2025-10-15 15:11:21,645 - INFO - Bark event logged: 2025-10-15T15:11:21.642443, confidence: 0.586, file: recordings/2025-10-15_15-11-21.wav
+2025-10-15 15:11:21,646 - INFO - Bark detected! Confidence: 0.586, Saved: 2025-10-15_15-11-21.wav
+2025-10-15 15:11:26,510 - INFO - Bark event logged: 2025-10-15T15:11:26.507335, confidence: 0.500, file: recordings/2025-10-15_15-11-26.wav
+2025-10-15 15:11:26,511 - INFO - Bark detected! Confidence: 0.500, Saved: 2025-10-15_15-11-26.wav
+2025-10-15 15:11:27,492 - INFO - Bark event logged: 2025-10-15T15:11:27.489310, confidence: 0.668, file: recordings/2025-10-15_15-11-27.wav
+2025-10-15 15:11:27,493 - INFO - Bark detected! Confidence: 0.668, Saved: 2025-10-15_15-11-27.wav
+2025-10-15 15:11:29,457 - INFO - Bark event logged: 2025-10-15T15:11:29.454633, confidence: 0.500, file: recordings/2025-10-15_15-11-29.wav
+2025-10-15 15:11:29,458 - INFO - Bark detected! Confidence: 0.500, Saved: 2025-10-15_15-11-29.wav
+2025-10-15 15:11:30,436 - INFO - Bark event logged: 2025-10-15T15:11:30.432851, confidence: 0.414, file: recordings/2025-10-15_15-11-30.wav
+2025-10-15 15:11:30,437 - INFO - Bark detected! Confidence: 0.414, Saved: 2025-10-15_15-11-30.wav
+2025-10-15 15:11:31,417 - INFO - Bark event logged: 2025-10-15T15:11:31.414228, confidence: 0.500, file: recordings/2025-10-15_15-11-31.wav
+2025-10-15 15:11:31,417 - INFO - Bark detected! Confidence: 0.500, Saved: 2025-10-15_15-11-31.wav
+2025-10-15 15:11:35,299 - INFO - Bark event logged: 2025-10-15T15:11:35.297036, confidence: 0.500, file: recordings/2025-10-15_15-11-35.wav
+2025-10-15 15:11:35,300 - INFO - Bark detected! Confidence: 0.500, Saved: 2025-10-15_15-11-35.wav
+2025-10-15 15:11:47,969 - INFO - Bark event logged: 2025-10-15T15:11:47.966490, confidence: 0.500, file: recordings/2025-10-15_15-11-47.wav
+2025-10-15 15:11:47,970 - INFO - Bark detected! Confidence: 0.500, Saved: 2025-10-15_15-11-47.wav
+2025-10-15 15:11:48,951 - INFO - Bark event logged: 2025-10-15T15:11:48.948577, confidence: 0.414, file: recordings/2025-10-15_15-11-48.wav
+2025-10-15 15:11:48,952 - INFO - Bark detected! Confidence: 0.414, Saved: 2025-10-15_15-11-48.wav
+2025-10-15 15:11:50,914 - INFO - Bark event logged: 2025-10-15T15:11:50.911670, confidence: 0.500, file: recordings/2025-10-15_15-11-50.wav
+2025-10-15 15:11:50,915 - INFO - Bark detected! Confidence: 0.500, Saved: 2025-10-15_15-11-50.wav
+2025-10-15 15:11:58,679 - INFO - Bark event logged: 2025-10-15T15:11:58.676967, confidence: 0.500, file: recordings/2025-10-15_15-11-58.wav
+2025-10-15 15:11:58,680 - INFO - Bark detected! Confidence: 0.500, Saved: 2025-10-15_15-11-58.wav
+2025-10-15 15:11:59,661 - INFO - Bark event logged: 2025-10-15T15:11:59.658744, confidence: 0.414, file: recordings/2025-10-15_15-11-59.wav
+2025-10-15 15:11:59,662 - INFO - Bark detected! Confidence: 0.414, Saved: 2025-10-15_15-11-59.wav
+2025-10-15 15:12:05,508 - INFO - Bark event logged: 2025-10-15T15:12:05.505698, confidence: 0.414, file: recordings/2025-10-15_15-12-05.wav
+2025-10-15 15:12:05,509 - INFO - Bark detected! Confidence: 0.414, Saved: 2025-10-15_15-12-05.wav
+2025-10-15 15:12:12,337 - INFO - Bark event logged: 2025-10-15T15:12:12.334330, confidence: 0.414, file: recordings/2025-10-15_15-12-12.wav
+2025-10-15 15:12:12,338 - INFO - Bark detected! Confidence: 0.414, Saved: 2025-10-15_15-12-12.wav
+2025-10-15 15:12:22,147 - INFO - Bark event logged: 2025-10-15T15:12:22.142784, confidence: 0.500, file: recordings/2025-10-15_15-12-22.wav
+2025-10-15 15:12:22,148 - INFO - Bark detected! Confidence: 0.500, Saved: 2025-10-15_15-12-22.wav
+2025-10-15 15:12:23,107 - INFO - Bark event logged: 2025-10-15T15:12:23.103556, confidence: 0.586, file: recordings/2025-10-15_15-12-23.wav
+2025-10-15 15:12:23,108 - INFO - Bark detected! Confidence: 0.586, Saved: 2025-10-15_15-12-23.wav
+2025-10-15 15:12:24,111 - INFO - Bark event logged: 2025-10-15T15:12:24.102477, confidence: 0.586, file: recordings/2025-10-15_15-12-24.wav
+2025-10-15 15:12:24,113 - INFO - Bark detected! Confidence: 0.586, Saved: 2025-10-15_15-12-24.wav
+2025-10-15 15:12:49,414 - INFO - Bark event logged: 2025-10-15T15:12:49.411005, confidence: 0.500, file: recordings/2025-10-15_15-12-49.wav
+2025-10-15 15:12:49,418 - INFO - Bark detected! Confidence: 0.500, Saved: 2025-10-15_15-12-49.wav
+2025-10-15 15:12:50,396 - INFO - Bark event logged: 2025-10-15T15:12:50.390224, confidence: 0.586, file: recordings/2025-10-15_15-12-50.wav
+2025-10-15 15:12:50,396 - INFO - Bark detected! Confidence: 0.586, Saved: 2025-10-15_15-12-50.wav
+2025-10-15 15:13:05,965 - INFO - Bark event logged: 2025-10-15T15:13:05.961883, confidence: 0.668, file: recordings/2025-10-15_15-13-05.wav
+2025-10-15 15:13:05,966 - INFO - Bark detected! Confidence: 0.668, Saved: 2025-10-15_15-13-05.wav
+2025-10-15 15:13:06,949 - INFO - Bark event logged: 2025-10-15T15:13:06.946540, confidence: 0.414, file: recordings/2025-10-15_15-13-06.wav
+2025-10-15 15:13:06,950 - INFO - Bark detected! Confidence: 0.414, Saved: 2025-10-15_15-13-06.wav
+2025-10-15 15:13:11,810 - INFO - Bark event logged: 2025-10-15T15:13:11.807413, confidence: 0.586, file: recordings/2025-10-15_15-13-11.wav
+2025-10-15 15:13:11,811 - INFO - Bark detected! Confidence: 0.586, Saved: 2025-10-15_15-13-11.wav
+2025-10-15 15:13:12,791 - INFO - Bark event logged: 2025-10-15T15:13:12.788371, confidence: 0.500, file: recordings/2025-10-15_15-13-12.wav
+2025-10-15 15:13:12,792 - INFO - Bark detected! Confidence: 0.500, Saved: 2025-10-15_15-13-12.wav
+2025-10-15 15:19:18,048 - INFO - Audio stream initialized: 16000Hz, 1 channels
+2025-10-15 15:19:18,061 - INFO - Model loaded successfully: model/yamnet_float16.tflite
+2025-10-15 15:19:18,065 - INFO - Input details: [{'name': 'waveform_binary', 'index': 0, 'shape': array([15600]), 'shape_signature': array([15600]), 'dtype': <class 'numpy.float32'>, 'quantization': (0.0, 0), 'quantization_parameters': {'scales': array([], dtype=float32), 'zero_points': array([], dtype=int32), 'quantized_dimension': 0}, 'sparsity_parameters': {}}]
+2025-10-15 15:19:18,068 - INFO - Output details: [{'name': 'tower0/network/layer32/final_output', 'index': 120, 'shape': array([  1, 521]), 'shape_signature': array([  1, 521]), 'dtype': <class 'numpy.float32'>, 'quantization': (0.0, 0), 'quantization_parameters': {'scales': array([], dtype=float32), 'zero_points': array([], dtype=int32), 'quantized_dimension': 0}, 'sparsity_parameters': {}}]
+2025-10-15 15:19:18,070 - INFO - Bark logger started

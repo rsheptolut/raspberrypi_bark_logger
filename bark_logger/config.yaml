@@ -3,17 +3,15 @@
 # Audio capture settings
 audio:
   sample_rate: 16000  # Hz - YAMNet typically uses 16kHz
-  chunk_size: 1024    # Samples per chunk
+  chunk_size: 15600   # Samples per chunk
   channels: 1         # Mono audio
   device_index: null  # null = default microphone
 
 # Model settings
 model:
   model_path: "model/yamnet_float16.tflite"
-  input_shape: [1, 1024]  # [batch, time] - adjust based on your model
   sample_rate: 16000      # Model's expected sample rate
-  class_names: ["bark", "other"]  # Simplified class names
-  bark_class_index: 0     # Index of bark class in output
+  class_names_file: "model/yamnet_class_map.csv"
 
 # Detection settings
 detection:
