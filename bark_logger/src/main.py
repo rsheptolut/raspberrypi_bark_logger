@@ -44,46 +44,50 @@ def main():
     
     logging.info("Bark logger started")
 
-    chunk_size = config['audio']['chunk_size']      # e.g., 15600
+    chunk_size = config['audio']['chunk_size']      # e.g., 15600 (~1s)
     hop_size = chunk_size // 2                       # 50% overlap
     buffer = np.zeros(chunk_size, dtype=np.float32)  # rolling buffer
-    
+
     try:
         while True:
             # Capture new audio chunk (hop_size samples)
             new_data = audio_capture.capture_chunk()
             if len(new_data) < hop_size:
                 new_data = np.pad(new_data, (0, hop_size - len(new_data)))
-            
+
             # Shift buffer left and append new data
             buffer[:-hop_size] = buffer[hop_size:]
             buffer[-hop_size:] = new_data[:hop_size]
 
-            # Run inference on full chunk
+            # Run inference on full buffer
             confidence = bark_detector.detect(buffer)
-            
+
             # Check if bark detected
             if confidence > config['detection']['threshold']:
                 timestamp = datetime.now()
-                
-                # Save only the latest hop that caused detection
+
+                # Save a clip that contains the full buffer
+                # This ensures we catch barks straddling chunk boundaries
+                clip_to_save = buffer.copy()
+
                 filename = f"{timestamp.strftime('%Y-%m-%d_%H-%M-%S')}.wav"
                 filepath = Path(config['recordings']['path']) / filename
-                audio_capture.save_clip(new_data, filepath)  # <--- just the hop
-                
+                audio_capture.save_clip(clip_to_save, filepath)
+
                 # Log event
                 event_logger.log_bark_event(timestamp, confidence, str(filepath))
-                
+
                 logging.info(f"Bark detected! Confidence: {confidence:.3f}, Saved: {filename}")
 
             time.sleep(config['detection']['interval'])
-            
+
     except KeyboardInterrupt:
         logging.info("Bark logger stopped by user")
     except Exception as e:
         logging.error(f"Error in main loop: {e}")
     finally:
         audio_capture.cleanup()
+
 
 
 if __name__ == "__main__":
