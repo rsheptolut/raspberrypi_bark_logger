@@ -1,3 +1,6 @@
+## Fork note
+Forked to apply some fixes for myself. Haven't cleaned them up for a proper PR though. The original repository didn't work for me out of the box, so needed to make some changes to get this to work, plus some random customizations.
+
 # Bark Logger
 
 A Raspberry Pi-based audio monitoring system that detects and logs dog barks using YAMNet and TensorFlow Lite.

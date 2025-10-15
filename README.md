@@ -1,3 +1,6 @@
+## Fork note
+Forked to apply some fixes for myself. Haven't cleaned them up for a proper PR though. The original repository didn't work for me out of the box, so needed to make some changes to get this to work, plus some random customizations.
+
 # Raspberry Pi Bark Logger
 
 A real-time dog bark detection and logging system using a Raspberry Pi with audio processing and machine learning capabilities.
