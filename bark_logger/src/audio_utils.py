@@ -8,6 +8,7 @@ import numpy as np  # System package: python3-numpy
 import wave
 from typing import Optional, Tuple
 import logging
+import struct
 from pathlib import Path
 
 class AudioCapture:
@@ -39,18 +40,18 @@ class AudioCapture:
             logging.error(f"Failed to initialize audio stream: {e}")
             raise
     
-    def capture_chunk(self) -> np.ndarray:
+    def capture_chunk(self, hop_size: int) -> np.ndarray:
         """Capture a single audio chunk"""
         if self.stream is None:
             raise RuntimeError("Audio stream not initialized")
         
-        try:
-            data = self.stream.read(self.chunk_size, exception_on_overflow=False)
+        try:            
+            data = self.stream.read(hop_size, exception_on_overflow=False)
             audio_array = np.frombuffer(data, dtype=np.float32)
             return audio_array
         except Exception as e:
             logging.error(f"Error capturing audio chunk: {e}")
-            return np.zeros(self.chunk_size, dtype=np.float32)
+            return np.zeros(hop_size, dtype=np.float32)
     
     def capture_duration(self, duration: float) -> np.ndarray:
         """Capture audio for a specified duration"""
@@ -87,6 +88,18 @@ class AudioCapture:
         except Exception as e:
             logging.error(f"Failed to save audio clip: {e}")
 
+    def fix_wav_header(self, filepath):
+        """Update WAV header's size fields after raw append."""
+        filepath = Path(filepath)
+        filesize = filepath.stat().st_size
+        data_size = filesize - 44  # header is 44 bytes for PCM
+
+        with open(filepath, 'r+b') as f:
+            f.seek(4)
+            f.write(struct.pack('<I', filesize - 8))  # ChunkSize
+            f.seek(40)
+            f.write(struct.pack('<I', data_size))     # Subchunk2Size
+
     def create_or_append_clip(self, audio_data: np.ndarray, filepath):
         """Append audio clip to existing WAV file (or create if not exists),
         creating parent folder if needed."""
@@ -110,6 +123,7 @@ class AudioCapture:
                 # Append raw bytes to existing file
                 with open(filepath, 'ab') as f:
                     f.write(audio_bytes)
+                self.fix_wav_header(filepath)
                 logging.debug(f"Appended audio data to {filepath}")
 
         except Exception as e:
