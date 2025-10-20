@@ -79,6 +79,10 @@ def main():
 
                 audio_capture.save_clip(clip_to_save, filepath)
 
+                appendFilename = f"supercut_{timestamp.strftime('%Y-%m-%d')}.wav"
+                appendFilepath = Path(config['recordings']['path']) / appendFilename
+                audio_capture.create_or_append_clip(clip_to_save, appendFilepath)
+
                 # Log event
                 event_logger.log_bark_event(timestamp, confidence, loudness_db, str(filepath))
 

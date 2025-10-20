@@ -86,7 +86,35 @@ class AudioCapture:
 
         except Exception as e:
             logging.error(f"Failed to save audio clip: {e}")
-        
+
+    def create_or_append_clip(self, audio_data: np.ndarray, filepath):
+        """Append audio clip to existing WAV file (or create if not exists),
+        creating parent folder if needed."""
+        try:
+            filepath = Path(filepath)
+            filepath.parent.mkdir(parents=True, exist_ok=True)
+
+            # Convert float32 [-1,1] to int16 PCM
+            audio_int16 = np.int16(audio_data * 32767)
+            audio_bytes = audio_int16.tobytes()
+
+            if not filepath.exists():
+                # Create new WAV file with proper header
+                with wave.open(str(filepath), 'wb') as wav_file:
+                    wav_file.setnchannels(self.channels)
+                    wav_file.setsampwidth(2)  # 16-bit PCM
+                    wav_file.setframerate(self.sample_rate)
+                    wav_file.writeframes(audio_bytes)
+                logging.debug(f"Created new WAV file: {filepath}")
+            else:
+                # Append raw bytes to existing file
+                with open(filepath, 'ab') as f:
+                    f.write(audio_bytes)
+                logging.debug(f"Appended audio data to {filepath}")
+
+        except Exception as e:
+            logging.error(f"Failed to append audio clip: {e}")
+
     def preprocess_audio(self, audio_data: np.ndarray) -> np.ndarray:
         """Preprocess audio for model input"""
         # Normalize audio
