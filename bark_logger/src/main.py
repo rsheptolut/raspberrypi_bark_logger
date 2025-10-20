@@ -135,6 +135,7 @@ def main():
             try:
                 new_data = audio_queue.get(timeout=1.0)
             except queue.Empty:
+                time.sleep(hop_size / audio_capture.sample_rate)
                 continue  # no new data yet
 
             # Shift buffer left and append new data
@@ -142,6 +143,7 @@ def main():
             buffer[-hop_size:] = new_data[:hop_size]
 
             # Run inference on full buffer
+            time.sleep(hop_size / audio_capture.sample_rate)
             confidence = bark_detector.detect(buffer)
 
             # Check if bark detected
