@@ -72,10 +72,15 @@ def main():
                 
                 filename = f"{timestamp.strftime('%Y-%m-%d_%H-%M-%S')}.wav"
                 filepath = Path(config['recordings']['path']) / filename
+
+                clip_to_save = trim_silence(clip_to_save)
+                rms = np.sqrt(np.mean(clip_to_save**2))
+                loudness_db = 20 * np.log10(rms) if rms > 0 else -np.inf
+
                 audio_capture.save_clip(clip_to_save, filepath)
 
                 # Log event
-                event_logger.log_bark_event(timestamp, confidence, str(filepath))
+                event_logger.log_bark_event(timestamp, confidence, loudness_db, str(filepath))
 
                 # clear buffer to prevent another detection on the same sound
                 buffer = np.zeros(chunk_size, dtype=np.float32) 
@@ -91,7 +96,12 @@ def main():
     finally:
         audio_capture.cleanup()
 
-
+def trim_silence(audio, threshold=1e-3):
+    """Remove leading and trailing silence."""
+    nonzero = np.where(np.abs(audio) > threshold)[0]
+    if len(nonzero) == 0:
+        return np.array([], dtype=np.float32)
+    return audio[nonzero[0]:nonzero[-1]+1]
 
 if __name__ == "__main__":
     main() 

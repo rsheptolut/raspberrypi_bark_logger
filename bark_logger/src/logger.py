@@ -32,10 +32,10 @@ class EventLogger:
         if not os.path.exists(self.csv_path):
             with open(self.csv_path, 'w', newline='') as csvfile:
                 writer = csv.writer(csvfile)
-                writer.writerow(['timestamp', 'confidence', 'filepath', 'duration_seconds'])
+                writer.writerow(['timestamp', 'confidence', 'filepath', 'duration_seconds', 'loudness'])
             logging.info(f"Created new bark events CSV file: {self.csv_path}")
     
-    def log_bark_event(self, timestamp: datetime, confidence: float, filepath: str, 
+    def log_bark_event(self, timestamp: datetime, confidence: float, loudness: float, filepath: str, 
                       duration_seconds: Optional[float] = None):
         """Log a bark detection event to CSV"""
         try:
@@ -45,12 +45,10 @@ class EventLogger:
                     timestamp.isoformat(),
                     f"{confidence:.6f}",
                     filepath,
-                    f"{duration_seconds:.3f}" if duration_seconds else ""
+                    f"{duration_seconds:.3f}" if duration_seconds else "",
+                    loudness
                 ])
-            
-            logging.info(f"Bark event logged: {timestamp.isoformat()}, "
-                        f"confidence: {confidence:.3f}, file: {filepath}")
-                        
+
         except Exception as e:
             logging.error(f"Failed to log bark event: {e}")
     
