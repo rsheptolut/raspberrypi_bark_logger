@@ -197,12 +197,13 @@ def main():
                     audio_capture.create_or_append_clip(clip_to_save, appendFilepath)
 
                     # Log event
-                    event_logger.log_bark_event(bark_start_time, avg_conf, loudness_db, str(filepath))
+                    duration = len(clip_to_save)/audio_capture.sample_rate;
+                    event_logger.log_bark_event(bark_start_time, avg_conf, loudness_db, str(filepath), duration)
                     
                     logging.info(
                         f"Bark saved: {filename} | "
                         f"Confidence: {avg_conf:.3f} | Loudness: {loudness_db:.1f} dB | "
-                        f"Duration: {len(clip_to_save)/audio_capture.sample_rate:.2f}s"
+                        f"Duration: {duration:.2f}s"
                     )
 
     except KeyboardInterrupt:
