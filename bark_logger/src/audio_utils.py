@@ -8,61 +8,66 @@ import numpy as np  # System package: python3-numpy
 import wave
 from typing import Optional, Tuple
 import logging
+import threading
+import queue
 import struct
 from pathlib import Path
 
 class AudioCapture:
     """Handles audio capture from microphone"""
-    
+
     def __init__(self, config: dict):
-        """Initialize audio capture with configuration"""
-        self.sample_rate = config['sample_rate']
-        self.chunk_size = config['chunk_size']
-        self.channels = config['channels']
+        self.sample_rate = int(config['sample_rate'])
+        self.chunk_size = int(config['chunk_size'] / 2)
+        self.channels = int(config['channels'])
         self.format = pyaudio.paFloat32
         
         self.audio = pyaudio.PyAudio()
         self.stream = None
-        self._setup_stream()
-    
-    def _setup_stream(self):
-        """Setup audio stream"""
+        self.q = queue.Queue(maxsize=50)
+        self.stop_event = threading.Event()
+
+    def _callback(self, in_data, frame_count, time_info, status):
+        """Called automatically by PyAudio when new audio is available."""
+        try:
+            audio_array = np.frombuffer(in_data, dtype=np.float32)
+            if self.channels > 1:
+                audio_array = np.mean(audio_array.reshape(-1, self.channels), axis=1)
+            # Push to queue, drop oldest if full
+            if not self.q.full():
+                self.q.put_nowait(audio_array)
+            else:
+                _ = self.q.get_nowait()
+                self.q.put_nowait(audio_array)
+        except Exception as e:
+            logging.error(f"Error in audio callback: {e}")
+        return (None, pyaudio.paContinue)
+
+    def startRecording(self):
+        """Start the continuous stream in callback mode."""
         try:
             self.stream = self.audio.open(
                 format=self.format,
                 channels=self.channels,
                 rate=self.sample_rate,
                 input=True,
-                frames_per_buffer=self.chunk_size
+                frames_per_buffer=self.chunk_size,
+                stream_callback=self._callback
             )
-            logging.info(f"Audio stream initialized: {self.sample_rate}Hz, {self.channels} channels")
+            self.stream.start_stream()
+            logging.info(f"Audio stream running at {self.sample_rate}Hz")
         except Exception as e:
-            logging.error(f"Failed to initialize audio stream: {e}")
+            logging.error(f"Failed to start audio stream: {e}")
             raise
-    
-    def capture_chunk(self, hop_size: int) -> np.ndarray:
-        """Capture a single audio chunk"""
-        if self.stream is None:
-            raise RuntimeError("Audio stream not initialized")
-        
-        try:            
-            data = self.stream.read(hop_size, exception_on_overflow=False)
-            audio_array = np.frombuffer(data, dtype=np.float32)
-            return audio_array
-        except Exception as e:
-            logging.error(f"Error capturing audio chunk: {e}")
-            return np.zeros(hop_size, dtype=np.float32)
-    
-    def capture_duration(self, duration: float) -> np.ndarray:
-        """Capture audio for a specified duration"""
-        num_chunks = int(duration * self.sample_rate / self.chunk_size)
-        audio_data = []
-        
-        for _ in range(num_chunks):
-            chunk = self.capture_chunk()
-            audio_data.append(chunk)
-        
-        return np.concatenate(audio_data)
+
+    def get_recorded_chunk(self):
+        """Fetch the next audio chunk from the queue (blocking until ready)."""
+        try:
+            data = self.q.get(timeout=1.0)
+            return data
+        except queue.Empty:
+            logging.warning("Audio queue empty — returning silence")
+            return np.zeros(chunk_size, dtype=np.float32)
     
     def save_clip(self, audio_data: np.ndarray, filepath):
         """Save audio clip to WAV file, creating parent folder if needed"""
@@ -142,6 +147,7 @@ class AudioCapture:
     
     def cleanup(self):
         """Clean up audio resources"""
+        self.stop_event.set()
         if self.stream:
             self.stream.stop_stream()
             self.stream.close()

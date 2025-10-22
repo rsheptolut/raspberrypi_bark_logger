@@ -28,10 +28,7 @@ def load_config(config_path: str = "config.yaml") -> dict:
 def audio_producer(capture: AudioCapture, q: queue.Queue, hop_size: int, stop_event: threading.Event):
     """Continuously capture audio and push chunks into queue."""
     while not stop_event.is_set():
-        data = capture.capture_chunk(hop_size)
-        if len(data) < hop_size:
-            data = np.pad(data, (0, hop_size - len(data)))
-        q.put(data)
+        data = capture.get_recorded_chunk()
     logging.info("Audio producer stopped")
 
 def audio_producer_debug(capture: AudioCapture, q: queue.Queue, hop_size: int, stop_event: threading.Event):
@@ -105,6 +102,8 @@ def main():
     audio_capture = AudioCapture(config['audio'])
     bark_detector = BarkDetector(config['model'])
     event_logger = EventLogger(config['logs'])
+
+    audio_capture.startRecording()
     
     logging.info("Bark logger started")
 
