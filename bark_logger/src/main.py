@@ -192,8 +192,8 @@ def main():
 
                     audio_capture.save_clip(clip_to_save, filepath)
 
-                    appendFilename = f"supercut_{bark_start_time.strftime('%Y-%m-%d')}.wav"
-                    appendFilepath = Path(config['recordings']['path']) / appendFilename
+                    appendFilename = f"{bark_start_time.strftime('%Y-%m-%d')}.wav"
+                    appendFilepath = Path(config['recordings']['supercuts']) / appendFilename
                     audio_capture.create_or_append_clip(clip_to_save, appendFilepath)
 
                     # Log event

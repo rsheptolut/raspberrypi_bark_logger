@@ -29,6 +29,7 @@ logs:
 # Recording settings
 recordings:
   path: "recordings/"
+  supercuts: "recordings/supercuts/"
   format: "wav"
   quality: "high"         # high, medium, low
   max_file_size_mb: 50    # Maximum file size before cleanup
